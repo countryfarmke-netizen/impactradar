@@ -1,1 +1,164 @@
-{"updated":"never","log":[],"items":[],"signals":[],"trends":[]}
+{
+ "updated": "2026-10-21T09:27Z",
+ "log": [
+  "fundsforNGOs: 86 read, 0 new active",
+  "Mastercard Foundation: 43 read, 0 new active",
+  "World Bank procurement (Kenya): FAILED (AttributeError: 'list' object has no attribute 'items')"
+ ],
+ "items": [],
+ "signals": [
+  {
+   "id": "297e0d491ad6",
+   "date": "2026-10-21",
+   "title": "Agriculture, Food & Nutrition",
+   "link": "https://www2.fundsforngos.org/category/agriculture-food-nutrition/",
+   "source": "fundsforNGOs",
+   "lanes": [
+    "Agri-food jobs"
+   ],
+   "funders": []
+  },
+  {
+   "id": "86be32c39f46",
+   "date": "2026-10-21",
+   "title": "Bread and Water for Africa supports rural women farmers in Sierra Leone and Malawi through training in resilient agriculture",
+   "link": "https://news.fundsforngos.org/2026/10/16/bread-and-water-for-africa-resilient-farm-training-sierra-leone-malawi/",
+   "source": "fundsforNGOs",
+   "lanes": [
+    "Agri-food jobs"
+   ],
+   "funders": []
+  },
+  {
+   "id": "e560f398fb83",
+   "date": "2026-10-21",
+   "title": "Maclane Natukunda Young Farmers in Uganda Are Enabling Access To Land, Finance, And Markets For Themselves And Their Peers Agriculture Uganda Young Farmers in Uganda Are Enabling Access To Land, Finan",
+   "link": "https://mastercardfdn.org/en/what-we-do/impact-stories/young-farmers-in-uganda-are-enabling-access-to-land-finance-and-markets-for-themselves-and-their-peers/",
+   "source": "Mastercard Foundation",
+   "lanes": [
+    "Agri-food jobs"
+   ],
+   "funders": []
+  },
+  {
+   "id": "a27f2b83d89a",
+   "date": "2026-10-21",
+   "title": "Felistus How Cone Bag Farming Helped a Young Woman in Kenya Become a Leader in Her Community Agriculture Kenya How Cone Bag Farming Helped a Young Woman in Kenya Become a Leader in Her Community Kenya",
+   "link": "https://mastercardfdn.org/en/what-we-do/impact-stories/how-cone-bag-farming-helped-a-young-woman-in-kenya-become-a-leader-in-her-community/",
+   "source": "Mastercard Foundation",
+   "lanes": [
+    "Agri-food jobs"
+   ],
+   "funders": []
+  },
+  {
+   "id": "82dcef18504b",
+   "date": "2026-10-21",
+   "title": "Fletcher Chinyama How Access to Finance is Transforming Farming in Malawi Agriculture Malawi How Access to Finance is Transforming Farming in Malawi Malawi",
+   "link": "https://mastercardfdn.org/en/what-we-do/impact-stories/how-access-to-finance-is-transforming-farming-in-malawi/",
+   "source": "Mastercard Foundation",
+   "lanes": [
+    "Agri-food jobs"
+   ],
+   "funders": []
+  },
+  {
+   "id": "ad6b9763d5cb",
+   "date": "2026-10-21",
+   "title": "Africa Youth Employment Outlook 2026 10 February 2026 Education and Transitions Burkina Faso, Guinea-Bissau, Djibouti, Mozambique, Egypt, Benin, Ghana, Senegal, Zambia, Uganda, C\u00f4te d\u2019Ivoire, Sierra L",
+   "link": "https://mastercardfdn.org/en/our-research/africa-youth-employment-outlook-2026/",
+   "source": "Mastercard Foundation",
+   "lanes": [
+    "Graduate & youth employability"
+   ],
+   "funders": []
+  },
+  {
+   "id": "b7c0ebeaebe3",
+   "date": "2026-10-21",
+   "title": "Building the Agriinfluencer Network 16 December 2025 Agriculture Kenya, Rwanda, Ghana, Senegal, Uganda, Nigeria",
+   "link": "https://mastercardfdn.org/en/our-research/building-the-agriinfluencer-network/",
+   "source": "Mastercard Foundation",
+   "lanes": [
+    "Agri-food jobs"
+   ],
+   "funders": []
+  },
+  {
+   "id": "ad69caaf115f",
+   "date": "2026-10-21",
+   "title": "Learning To Earning: Making Digital Skills Work For Young Africans 06 July 2026",
+   "link": "https://mastercardfdn.org/en/articles/learning-to-earning-making-digital-skills-work-for-young-africans/",
+   "source": "Mastercard Foundation",
+   "lanes": [
+    "AI & digital skills"
+   ],
+   "funders": []
+  }
+ ],
+ "trends": [
+  {
+   "lane": "AI & digital skills",
+   "signals_30d": 1,
+   "signals_prev30d": 0,
+   "open_calls": 0,
+   "top_funders": [],
+   "pitch": false,
+   "asset": "Bridge's recruitment and assessment data, StrikeAge and the HR Excellence Academy"
+  },
+  {
+   "lane": "Gig & platform work",
+   "signals_30d": 0,
+   "signals_prev30d": 0,
+   "open_calls": 0,
+   "top_funders": [],
+   "pitch": false,
+   "asset": "payroll and compliance expertise to formalise and protect gig workers"
+  },
+  {
+   "lane": "Blue-collar & vocational",
+   "signals_30d": 0,
+   "signals_prev30d": 0,
+   "open_calls": 0,
+   "top_funders": [],
+   "pitch": false,
+   "asset": "bulk recruitment and employee outsourcing across manufacturing, construction and agriculture"
+  },
+  {
+   "lane": "Agri-food jobs",
+   "signals_30d": 6,
+   "signals_prev30d": 0,
+   "open_calls": 0,
+   "top_funders": [],
+   "pitch": true,
+   "asset": "the Vijana na Kilimo track record and Bridge's agribusiness clients"
+  },
+  {
+   "lane": "Graduate & youth employability",
+   "signals_30d": 1,
+   "signals_prev30d": 0,
+   "open_calls": 0,
+   "top_funders": [],
+   "pitch": false,
+   "asset": "StrikeAge, talent assessment and outplacement services"
+  },
+  {
+   "lane": "Labour migration",
+   "signals_30d": 0,
+   "signals_prev30d": 0,
+   "open_calls": 0,
+   "top_funders": [],
+   "pitch": false,
+   "asset": "immigration, work-permit and contracting compliance services"
+  },
+  {
+   "lane": "Workforce & HR capacity",
+   "signals_30d": 0,
+   "signals_prev30d": 0,
+   "open_calls": 0,
+   "top_funders": [],
+   "pitch": false,
+   "asset": "HR consulting, payroll and training for NGOs and SMEs"
+  }
+ ]
+}

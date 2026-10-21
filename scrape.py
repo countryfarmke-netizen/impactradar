@@ -59,6 +59,7 @@ def from_wb(src):
         out.append((clean(v.get("bid_description") or v.get("project_name") or ""), "https://projects.worldbank.org/en/projects-operations/procurement-detail/" + str(v.get("id", k)),
                     clean(f'tender {v.get("notice_type","")} deadline {v.get("submission_deadline_date","")}')))
     return out
+def score(t):
     t = t.lower(); s = sum(w for k, w in CFG["themes"].items() if k in t)
     return s + sum(w for k, w in CFG["geo_bonus"].items() if k in t) if s else 0
 

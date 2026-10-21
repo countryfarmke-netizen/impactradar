@@ -59,37 +59,17 @@
     "partner"
   ],
   "min_score": 4,
-  "sources": [
-    {
-      "name": "Google Alert: youth employment Kenya",
-      "type": "rss",
-      "url": "PASTE_GOOGLE_ALERT_RSS_URL",
-      "enabled": false
-    },
-    {
-      "name": "Google Alert: call for proposals Kenya",
-      "type": "rss",
-      "url": "PASTE_GOOGLE_ALERT_RSS_URL",
-      "enabled": false
-    },
-    {
-      "name": "fundsforNGOs",
-      "type": "page",
-      "url": "https://news.fundsforngos.org/",
-      "enabled": true
-    },
-    {
-      "name": "Mastercard Foundation",
-      "type": "page",
-      "url": "https://mastercardfdn.org/en/",
-      "enabled": true
-    },
-    {
-      "name": "World Bank procurement (Kenya)",
-      "type": "wb",
-      "url": "https://search.worldbank.org/api/v2/procnotices?format=json&rows=100&countryshortname_exact=Kenya&srt=submission_date&order=desc",
-      "enabled": true
-    }
+    "sources": [
+    {"name": "Google Alert 1", "type": "rss", "url": "https://www.google.com/alerts/feeds/15101742723875008801/2917192171959457771", "enabled": true},
+    {"name": "Google Alert 2", "type": "rss", "url": "https://www.google.com/alerts/feeds/15101742723875008801/17336174377885641644", "enabled": true},
+    {"name": "Google Alert 3", "type": "rss", "url": "https://www.google.com/alerts/feeds/15101742723875008801/17336174377885642696", "enabled": true},
+    {"name": "Google Alert 4", "type": "rss", "url": "https://www.google.com/alerts/feeds/15101742723875008801/4216279195670485945", "enabled": true},
+    {"name": "Google Alert 5", "type": "rss", "url": "https://www.google.com/alerts/feeds/15101742723875008801/2145049915932419904", "enabled": true},
+    {"name": "Google Alert 6", "type": "rss", "url": "https://www.google.com/alerts/feeds/15101742723875008801/3766926043053244538", "enabled": true},
+    {"name": "fundsforNGOs", "type": "page", "url": "https://news.fundsforngos.org/", "enabled": true},
+    {"name": "Mastercard Foundation", "type": "page", "url": "https://mastercardfdn.org/en/", "enabled": true},
+    {"name": "World Bank procurement (Kenya)", "type": "wb", "url": "https://search.worldbank.org/api/v2/procnotices?format=json&rows=100&countryshortname_exact=Kenya&srt=submission_date&order=desc", "enabled": true}
+  ]
   ],
   "push_min_score": 8,
   "max_detail_fetch": 40,

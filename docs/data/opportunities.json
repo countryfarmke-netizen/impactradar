@@ -1,8 +1,8 @@
 {
- "updated": "2026-10-21T07:46Z",
+ "updated": "2026-10-21T07:53Z",
  "log": [
-  "fundsforNGOs: 86 read, 3 new",
-  "Mastercard Foundation: 43 read, 9 new",
+  "fundsforNGOs: 86 read, 0 new",
+  "Mastercard Foundation: 43 read, 0 new",
   "World Bank procurement (Kenya): FAILED (AttributeError: 'list' object has no attribute 'items')"
  ],
  "items": [

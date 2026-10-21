@@ -1,0 +1,18 @@
+{
+  "themes": {
+    "youth": 3, "employment": 3, "jobs": 2, "skills": 2, "agri": 3, "agriculture": 3,
+    "agri-food": 4, "workforce": 3, "talent": 2, "graduate": 3, "tvet": 3,
+    "labour market": 3, "labor market": 3, "recruitment": 2, "internship": 2,
+    "entrepreneur": 1, "decent work": 3, "women": 1, "digital skills": 2
+  },
+  "geo_bonus": {"kenya": 4, "east africa": 2, "africa": 1},
+  "call_words": ["call for proposals", "expression of interest", "eoi", "rfp", "tender", "request for", "grant", "apply", "funding", "partner"],
+  "min_score": 4,
+  "sources": [
+    {"name": "Google Alert: youth employment Kenya", "type": "rss", "url": "PASTE_GOOGLE_ALERT_RSS_URL", "enabled": false},
+    {"name": "Google Alert: call for proposals Kenya", "type": "rss", "url": "PASTE_GOOGLE_ALERT_RSS_URL", "enabled": false},
+    {"name": "fundsforNGOs", "type": "page", "url": "https://news.fundsforngos.org/", "enabled": true},
+    {"name": "Mastercard Foundation", "type": "page", "url": "https://mastercardfdn.org/en/", "enabled": true},
+    {"name": "World Bank procurement (Kenya)", "type": "wb", "url": "https://search.worldbank.org/api/v2/procnotices?format=json&rows=100&countryshortname_exact=Kenya&srt=submission_date&order=desc", "enabled": true}
+  ]
+}

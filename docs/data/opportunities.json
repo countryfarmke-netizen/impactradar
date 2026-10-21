@@ -1,9 +1,15 @@
 {
- "updated": "2026-10-21T12:17Z",
+ "updated": "2026-10-21T12:54Z",
  "log": [
-  "fundsforNGOs: FAILED (NameError: name 'score' is not defined)",
-  "Mastercard Foundation: FAILED (NameError: name 'score' is not defined)",
-  "World Bank procurement (Kenya): FAILED (NameError: name 'score' is not defined)"
+  "Google Alert 1: 0 read, 0 new active",
+  "Google Alert 2: 2 read, 0 new active",
+  "Google Alert 3: 0 read, 0 new active",
+  "Google Alert 4: 0 read, 0 new active",
+  "Google Alert 5: 0 read, 0 new active",
+  "Google Alert 6: 0 read, 0 new active",
+  "fundsforNGOs: 64 read, 0 new active",
+  "Mastercard Foundation: 37 read, 0 new active",
+  "World Bank procurement (Kenya): 100 read, 0 new active"
  ],
  "items": [],
  "signals": [

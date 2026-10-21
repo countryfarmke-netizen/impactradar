@@ -50,16 +50,15 @@ class Links(HTMLParser):
         if self.cur: self.cur[1] += " " + d
     def handle_endtag(self, t):
         if t == "a" and self.cur:
-            if len(clean(self.cur[1])) > 25: self.out.append((clean(self.cur[1]), self.cur[0], ""))
+            if len(clean(self.cur[1]).split()) >= 6: self.out.append((clean(self.cur[1]), self.cur[0], ""))
             self.cur = None
 def from_page(src): p = Links(src["url"]); p.feed(get(src["url"])); return p.out
 def from_wb(src):
-    out = []
-    for k, v in (json.loads(get(src["url"])).get("procnotices") or {}).items():
+    out, pn = [], json.loads(get(src["url"])).get("procnotices") or []
+    for k, v in (pn.items() if isinstance(pn, dict) else enumerate(pn)):
         out.append((clean(v.get("bid_description") or v.get("project_name") or ""), "https://projects.worldbank.org/en/projects-operations/procurement-detail/" + str(v.get("id", k)),
                     clean(f'tender {v.get("notice_type","")} deadline {v.get("submission_deadline_date","")}')))
     return out
-def score(t):
     t = t.lower(); s = sum(w for k, w in CFG["themes"].items() if k in t)
     return s + sum(w for k, w in CFG["geo_bonus"].items() if k in t) if s else 0
 
@@ -72,7 +71,7 @@ def funders_in(t): t = t.lower(); return [f for f in CFG["funders"] if f.lower()
 sigs = {s["id"]: s for s in prev.get("signals", [])}
 def signal(i, title, link, summ, src):  # news, awards, announcements: early hints of where money is moving
     ln = lanes_of(title + " " + summ)
-    if ln and i not in sigs: sigs[i] = {"id": i, "date": TODAY.isoformat(), "title": title, "link": link, "source": src["name"], "lanes": ln, "funders": funders_in(title + " " + summ)}
+    if ln and i not in sigs: sigs[i] = {"id": i, "date": TODAY.isoformat(), "title": title, "link": link, "source": src["name"], "lanes": ln, "funders": funders_in(title + " " + summ) or ([src["name"]] if src["name"] in CFG["funders"] else [])}
 def trends(items):
     age = lambda s: (TODAY - dt.date.fromisoformat(s["date"])).days
     keep = sorted((s for s in sigs.values() if age(s) <= 120), key=lambda s: s["date"], reverse=True)[:1500]; out = []

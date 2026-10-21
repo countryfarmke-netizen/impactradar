@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-21T09:27Z",
+ "updated": "2026-10-21T12:17Z",
  "log": [
-  "fundsforNGOs: 86 read, 0 new active",
-  "Mastercard Foundation: 43 read, 0 new active",
-  "World Bank procurement (Kenya): FAILED (AttributeError: 'list' object has no attribute 'items')"
+  "fundsforNGOs: FAILED (NameError: name 'score' is not defined)",
+  "Mastercard Foundation: FAILED (NameError: name 'score' is not defined)",
+  "World Bank procurement (Kenya): FAILED (NameError: name 'score' is not defined)"
  ],
  "items": [],
  "signals": [

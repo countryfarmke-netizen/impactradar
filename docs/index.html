@@ -1,6 +1,6 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Impact Radar</title>
 <style>
-:root{--bg:#eef1f4;--card:#fff;--tx:#16202e;--mut:#5d6b7c;--ac:#1f5f8b;--bd:#d5dce4;--amb:#b45309;--red:#b91c1c;--ok:#1b7a4f}
+:root{/* BRAND: set --ac to Bridge's primary colour (light mode) */--bg:#eef1f4;--card:#fff;--tx:#16202e;--mut:#5d6b7c;--ac:#1f5f8b;--bd:#d5dce4;--amb:#b45309;--red:#b91c1c;--ok:#1b7a4f}
 @media(prefers-color-scheme:dark){:root{--bg:#10161e;--card:#18212c;--tx:#e6ecf2;--mut:#93a1b2;--ac:#6cb4e4;--bd:#2a3644;--amb:#f0a64a;--red:#f87171;--ok:#4cc38a}}
 *{box-sizing:border-box}body{margin:0;font:15px/1.5 system-ui,-apple-system,Segoe UI,sans-serif;background:var(--bg);color:var(--tx)}
 header{padding:20px 5vw 0}h1{font:700 26px/1.2 Georgia,serif;margin:0}header p{margin:2px 0 14px;color:var(--mut);font-size:13px}
@@ -18,26 +18,26 @@ input,select,textarea,button{font:inherit;color:var(--tx)}input,select,textarea{
 .sc{font-weight:700;color:var(--ok)}.d{font-weight:600}.d.u{color:var(--red)}.d.s{color:var(--amb)}
 h2{font:600 15px system-ui;margin:22px 0 8px;color:var(--mut)}.empty{padding:30px;text-align:center;color:var(--mut);border:1px dashed var(--bd);border-radius:6px}
 </style></head><body>
-<header><h1>Impact Radar</h1><p id="up"></p></header>
+<header><div style="display:flex;align-items:center;gap:14px;flex-wrap:wrap"><img src="https://bridgetalentgroup.com/wp-content/uploads/2021/03/logo-3.png" alt="Bridge Talent Management" style="height:36px;background:#fff;padding:4px 8px;border-radius:6px" onerror="this.remove()"><h1>Impact Radar</h1></div><p id="up"></p></header>
 <nav id="nav"></nav><main id="m"></main>
 <script>
-const K='impact-radar-v1',STG=['Spotted','Qualifying','Drafting','Submitted','Won','Lost'],TY=['Call','RFP','Collaboration','Other'];
-let S=JSON.parse(localStorage.getItem(K)||'{"pipe":[],"hide":[]}'),D=[],tab='Radar',q='',log=[];
+const K='impact-radar-v1',STG=['Spotted','Qualifying','Drafting','Submitted','Won','Lost'],TY=['Call','RFP','Collaboration','Pitch','Other'];
+let S=JSON.parse(localStorage.getItem(K)||'{"pipe":[],"hide":[]}'),D=[],T=[],SG=[],tab='Radar',q='',log=[];
 const save=()=>localStorage.setItem(K,JSON.stringify(S));
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const $=id=>document.getElementById(id);
 const days=d=>d?Math.ceil((new Date(d)-new Date().setHours(0,0,0,0))/864e5):null;
 function dl(d){const n=days(d);if(n===null)return'<span class="m">no deadline</span>';
  return `<span class="d ${n<=7?'u':n<=21?'s':''}">${n<0?'closed '+(-n)+'d ago':n===0?'due today':n+' days left'}</span>`}
-fetch('data/opportunities.json').then(r=>r.json()).then(j=>{D=j.items||[];log=j.log||[];$('up').textContent='Last scan: '+j.updated;render()}).catch(()=>{$('up').textContent='No scan data yet. Run the workflow, or add items manually.';render()});
-function add(o){S.pipe.push({id:o.id||'m'+Date.now(),title:o.title,funder:o.source||'',type:o.type||'Call',stage:'Spotted',deadline:'',contact:'',next:'',notes:'',link:o.link||''});save();render()}
+fetch('data/opportunities.json').then(r=>r.json()).then(j=>{D=j.items||[];log=j.log||[];T=j.trends||[];SG=j.signals||[];$('up').textContent='Last scan: '+j.updated;render()}).catch(()=>{$('up').textContent='No scan data yet. Run the workflow, or add items manually.';render()});
+function add(o){S.pipe.push({id:o.id||'m'+Date.now(),title:o.title,funder:o.source||'',type:o.type||(o.kind==='RFP'?'RFP':'Call'),stage:'Spotted',deadline:o.deadline||'',contact:(o.contacts||[]).join(', '),next:'',notes:'',link:o.link||''});save();render()}
 function upd(i,k,v){S.pipe[i][k]=v;save();if(k==='stage'||k==='deadline')render()}
 function radar(){const have=new Set(S.pipe.map(p=>p.id)),hid=new Set(S.hide);
  const L=D.filter(x=>!have.has(x.id)&&!hid.has(x.id)&&(x.title+x.source).toLowerCase().includes(q.toLowerCase())).sort((a,b)=>b.score-a.score);
  return `<div class="bar"><input id="q" placeholder="Filter by keyword" value="${esc(q)}" oninput="q=this.value;render(1)" style="flex:1"></div>`+
  (L.length?L.map(x=>`<div class="it"><h3><a href="${esc(x.link)}" target="_blank" rel="noopener">${esc(x.title)}</a></h3>
- <div class="m">${esc(x.source)} · first seen ${x.first_seen} · fit <span class="sc">${x.score}</span></div>
- <div class="row"><button class="btn" onclick='add(${JSON.stringify(x).replace(/'/g,"&#39;")})'>Add to pipeline</button><button class="btn g" onclick="S.hide.push('${x.id}');save();render()">Hide</button></div></div>`).join('')
+ <div class="m">${esc(x.kind||'Opportunity')} · ${dl(x.deadline)} · ${esc(x.source)} · fit <span class="sc">${x.score}</span></div>${(x.contacts||[]).length?`<div class="m">Contact: ${x.contacts.map(c=>`<a href="mailto:${esc(c)}">${esc(c)}</a>`).join(', ')}</div>`:''}
+ <div class="row"><button class="btn" onclick='add(${JSON.stringify(x).replace(/'/g,"&#39;")})'>Add to pipeline</button><button class="btn g" onclick="S.hide.push('${x.id}');save();render()">Hide</button><a class="btn g" style="text-decoration:none" target="_blank" rel="noopener" href="https://www.google.com/search?q=${encodeURIComponent('"'+x.title.slice(0,70)+'" contact OR "programme officer"')}">Find contact</a></div></div>`).join('')
  :'<div class="empty">Nothing new matches. Check the Sources tab to see whether each source ran.</div>')}
 function pipe(){let h=`<div class="bar"><input id="nt" placeholder="Add an opportunity or collaboration" style="flex:2"><select id="ntype">${TY.map(t=>`<option>${t}</option>`).join('')}</select><button class="btn" onclick="if(nt.value.trim())add({title:nt.value.trim(),type:ntype.value})">Add</button></div>`;
  STG.forEach(s=>{const L=S.pipe.map((p,i)=>[p,i]).filter(([p])=>p.stage===s).sort((a,b)=>(a[0].deadline||'9')<(b[0].deadline||'9')?-1:1);
@@ -52,13 +52,19 @@ function pipe(){let h=`<div class="bar"><input id="nt" placeholder="Add an oppor
  <button class="btn g" onclick="if(confirm('Remove this item?')){S.pipe.splice(${i},1);save();render()}">Remove</button></div>
  <div class="row"><textarea rows="2" placeholder="Notes" onchange="upd(${i},'notes',this.value)">${esc(p.notes)}</textarea></div></div>`).join('')});
  return S.pipe.length?h:h+'<div class="empty">Your pipeline is empty. Add an item above, or send one from the Radar.</div>'}
+function sig(){const ar=t=>t.signals_30d>t.signals_prev30d?'rising':t.signals_30d<t.signals_prev30d?'cooling':'steady';
+ return `<div class="m" style="margin-bottom:12px">Signals are stories, awards and announcements read before a call exists. A lane with many signals and few open calls is a pitch window. Trends become reliable after 3 to 4 weeks of scans.</div>`+
+ (T.length?T.map(t=>`<div class="it" style="border-left-color:${t.pitch?'var(--amb)':'var(--ac)'}"><h3>${esc(t.lane)} ${t.pitch?'<span class="d s">Pitch window</span>':''}</h3>
+ <div class="m">${t.signals_30d} signals in 30 days (${ar(t)}, ${t.signals_prev30d} before) · ${t.open_calls} open calls${t.top_funders.length?' · Funders: '+t.top_funders.map(esc).join(', '):''}</div>
+ ${t.pitch?`<div class="m" style="margin-top:6px">Suggested move: send ${t.top_funders[0]?esc(t.top_funders[0]):'a priority funder'} a short concept note. Lead with ${esc(t.asset)}.</div><div class="row"><button class="btn" onclick='add({title:${JSON.stringify("Proactive pitch: "+t.lane)},source:${JSON.stringify(t.top_funders[0]||"")},type:"Pitch"})'>Add pitch to pipeline</button></div>`:''}</div>`).join(''):'<div class="empty">No trend data yet. It builds up after the first scans.</div>')+
+ '<h2>Latest signals</h2>'+(SG.length?SG.slice(0,25).map(s=>`<div class="it"><h3><a href="${esc(s.link)}" target="_blank" rel="noopener">${esc(s.title)}</a></h3><div class="m">${s.date} · ${esc(s.source)} · ${s.lanes.map(esc).join(', ')}${s.funders.length?' · '+s.funders.map(esc).join(', '):''}</div></div>`).join(''):'<div class="empty">No signals yet.</div>')}
 function src(){return `<div class="it"><h3>Last scan log</h3><div class="m">${log.length?log.map(esc).join('<br>'):'No scan yet.'}</div></div>
 <div class="it"><h3>Find partners and funded projects</h3><div class="m">Search who already funds youth employment in Kenya, then add the implementers as Collaboration items.</div><div class="row">
 <a class="btn" style="text-decoration:none;text-align:center" target="_blank" rel="noopener" href="https://d-portal.org/ctrack.html#view=search&country_code=KE">Open D-Portal (IATI data, Kenya)</a></div></div>
 <div class="it"><h3>Backup</h3><div class="m">Your pipeline lives only in this browser.</div><div class="row"><button class="btn g" onclick="ex()">Export</button><input type="file" accept=".json" onchange="im(this)"></div></div>`}
 function ex(){const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(S)],{type:'application/json'}));a.download='impact-radar-pipeline.json';a.click()}
 function im(el){const f=el.files[0];if(!f)return;f.text().then(t=>{try{S=JSON.parse(t);save();render()}catch(e){alert('That file is not a valid export.')}})}
-function render(keep){$('nav').innerHTML=['Radar','Pipeline','Sources'].map(t=>`<button class="${t==tab?'on':''}" onclick="tab='${t}';render()">${t}${t=='Pipeline'?' ('+S.pipe.length+')':''}</button>`).join('');
- $('m').innerHTML={Radar:radar,Pipeline:pipe,Sources:src}[tab]();if(keep){const e=$('q');e.focus();e.setSelectionRange(99,99)}}
+function render(keep){$('nav').innerHTML=['Radar','Signals','Pipeline','Sources'].map(t=>`<button class="${t==tab?'on':''}" onclick="tab='${t}';render()">${t}${t=='Pipeline'?' ('+S.pipe.length+')':''}</button>`).join('');
+ $('m').innerHTML={Radar:radar,Signals:sig,Pipeline:pipe,Sources:src}[tab]();if(keep){const e=$('q');e.focus();e.setSelectionRange(99,99)}}
 render();
 </script></body></html>

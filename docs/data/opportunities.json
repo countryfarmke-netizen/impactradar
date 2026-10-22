@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-21T12:54Z",
+ "updated": "2026-10-22T06:08Z",
  "log": [
   "Google Alert 1: 0 read, 0 new active",
   "Google Alert 2: 2 read, 0 new active",
-  "Google Alert 3: 0 read, 0 new active",
+  "Google Alert 3: 1 read, 1 new active",
   "Google Alert 4: 0 read, 0 new active",
   "Google Alert 5: 0 read, 0 new active",
   "Google Alert 6: 0 read, 0 new active",
@@ -11,7 +11,26 @@
   "Mastercard Foundation: 37 read, 0 new active",
   "World Bank procurement (Kenya): 100 read, 0 new active"
  ],
- "items": [],
+ "items": [
+  {
+   "id": "a4deb3b16243",
+   "v": 2,
+   "first_seen": "2026-10-22",
+   "title": "Treasury Begins Bids Evaluation for 460KM Nairobi-Mombasa Expressway - Kenyans .co.ke",
+   "link": "https://www.kenyans.co.ke/news/128726-treasury-begins-bids-evaluation-460km-nairobi-mombasa-expressway",
+   "source": "Google Alert 3",
+   "score": 6,
+   "deadline": "",
+   "contacts": [],
+   "kind": "EOI",
+   "lanes": [
+    "Blue-collar & vocational"
+   ],
+   "funders": [
+    "ILO"
+   ]
+  }
+ ],
  "signals": [
   {
    "id": "297e0d491ad6",
@@ -125,7 +144,7 @@
    "lane": "Blue-collar & vocational",
    "signals_30d": 0,
    "signals_prev30d": 0,
-   "open_calls": 0,
+   "open_calls": 1,
    "top_funders": [],
    "pitch": false,
    "asset": "bulk recruitment and employee outsourcing across manufacturing, construction and agriculture"

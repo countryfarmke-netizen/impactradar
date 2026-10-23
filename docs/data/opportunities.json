@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-22T09:45Z",
+ "updated": "2026-10-23T09:41Z",
  "log": [
   "Google Alert 1: 0 read, 0 new active",
-  "Google Alert 2: 2 read, 0 new active",
-  "Google Alert 3: 1 read, 0 new active",
+  "Google Alert 2: 2 read, 1 new active",
+  "Google Alert 3: 0 read, 0 new active",
   "Google Alert 4: 0 read, 0 new active",
   "Google Alert 5: 0 read, 0 new active",
   "Google Alert 6: 0 read, 0 new active",
@@ -12,6 +12,20 @@
   "World Bank procurement (Kenya): 100 read, 0 new active"
  ],
  "items": [
+  {
+   "id": "3f17b6f01225",
+   "v": 2,
+   "first_seen": "2026-10-23",
+   "title": "Call for EOIs: Architects of Trust \u2013 Community-Driven Demand Creation for New TB Vaccines",
+   "link": "https://www2.fundsforngos.org/community-development-2/call-for-expression-of-interest-architects-of-trust-for-tb-vaccine-demand/",
+   "source": "Google Alert 2",
+   "score": 7,
+   "deadline": "",
+   "contacts": [],
+   "kind": "Grant",
+   "lanes": [],
+   "funders": []
+  },
   {
    "id": "a4deb3b16243",
    "v": 2,

@@ -1,17 +1,33 @@
 {
- "updated": "2026-10-23T09:41Z",
+ "updated": "2026-10-24T09:13Z",
  "log": [
   "Google Alert 1: 0 read, 0 new active",
-  "Google Alert 2: 2 read, 1 new active",
+  "Google Alert 2: 0 read, 0 new active",
   "Google Alert 3: 0 read, 0 new active",
   "Google Alert 4: 0 read, 0 new active",
   "Google Alert 5: 0 read, 0 new active",
-  "Google Alert 6: 0 read, 0 new active",
+  "Google Alert 6: 1 read, 0 new active",
   "fundsforNGOs: 64 read, 0 new active",
   "Mastercard Foundation: 37 read, 0 new active",
-  "World Bank procurement (Kenya): 100 read, 0 new active"
+  "World Bank procurement (Kenya): 100 read, 1 new active"
  ],
  "items": [
+  {
+   "id": "be20693dc42b",
+   "v": 2,
+   "first_seen": "2026-10-24",
+   "title": "Consulting Services for Practical Training on Agricultural Drone Operations, Multispectral Data Acquisition and Processing for the Agriculture Technical Team (ATT)",
+   "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00476722",
+   "source": "World Bank procurement (Kenya)",
+   "score": 6,
+   "deadline": "2026-11-05",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [
+    "Agri-food jobs"
+   ],
+   "funders": []
+  },
   {
    "id": "3f17b6f01225",
    "v": 2,
@@ -167,7 +183,7 @@
    "lane": "Agri-food jobs",
    "signals_30d": 6,
    "signals_prev30d": 0,
-   "open_calls": 0,
+   "open_calls": 1,
    "top_funders": [],
    "pitch": true,
    "asset": "the Vijana na Kilimo track record and Bridge's agribusiness clients"

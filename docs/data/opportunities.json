@@ -1,15 +1,15 @@
 {
- "updated": "2026-10-24T09:13Z",
+ "updated": "2026-10-25T09:30Z",
  "log": [
   "Google Alert 1: 0 read, 0 new active",
   "Google Alert 2: 0 read, 0 new active",
   "Google Alert 3: 0 read, 0 new active",
   "Google Alert 4: 0 read, 0 new active",
   "Google Alert 5: 0 read, 0 new active",
-  "Google Alert 6: 1 read, 0 new active",
+  "Google Alert 6: 0 read, 0 new active",
   "fundsforNGOs: 64 read, 0 new active",
   "Mastercard Foundation: 37 read, 0 new active",
-  "World Bank procurement (Kenya): 100 read, 1 new active"
+  "World Bank procurement (Kenya): 100 read, 2 new active"
  ],
  "items": [
   {
@@ -25,6 +25,22 @@
    "kind": "RFP",
    "lanes": [
     "Agri-food jobs"
+   ],
+   "funders": []
+  },
+  {
+   "id": "3f93864d2e0d",
+   "v": 2,
+   "first_seen": "2026-10-25",
+   "title": "Procurement and distribution of resource materials and vocational skills kit",
+   "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00477064",
+   "source": "World Bank procurement (Kenya)",
+   "score": 4,
+   "deadline": "2026-11-20",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [
+    "Blue-collar & vocational"
    ],
    "funders": []
   },
@@ -59,6 +75,22 @@
    "funders": [
     "ILO"
    ]
+  },
+  {
+   "id": "4fc8241c169b",
+   "v": 2,
+   "first_seen": "2026-10-25",
+   "title": "Construction of 10 roll-up plastic, shade Net and irrigation system for smart climate Agriculture in Maseru and Berea",
+   "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00477008",
+   "source": "World Bank procurement (Kenya)",
+   "score": 6,
+   "deadline": "",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [
+    "Agri-food jobs"
+   ],
+   "funders": []
   }
  ],
  "signals": [
@@ -174,7 +206,7 @@
    "lane": "Blue-collar & vocational",
    "signals_30d": 0,
    "signals_prev30d": 0,
-   "open_calls": 1,
+   "open_calls": 2,
    "top_funders": [],
    "pitch": false,
    "asset": "bulk recruitment and employee outsourcing across manufacturing, construction and agriculture"
@@ -183,9 +215,9 @@
    "lane": "Agri-food jobs",
    "signals_30d": 6,
    "signals_prev30d": 0,
-   "open_calls": 1,
+   "open_calls": 2,
    "top_funders": [],
-   "pitch": true,
+   "pitch": false,
    "asset": "the Vijana na Kilimo track record and Bridge's agribusiness clients"
   },
   {

@@ -1,15 +1,15 @@
 {
- "updated": "2026-10-25T09:30Z",
+ "updated": "2026-10-26T10:40Z",
  "log": [
   "Google Alert 1: 0 read, 0 new active",
   "Google Alert 2: 0 read, 0 new active",
-  "Google Alert 3: 0 read, 0 new active",
+  "Google Alert 3: 1 read, 1 new active",
   "Google Alert 4: 0 read, 0 new active",
   "Google Alert 5: 0 read, 0 new active",
   "Google Alert 6: 0 read, 0 new active",
   "fundsforNGOs: 64 read, 0 new active",
   "Mastercard Foundation: 37 read, 0 new active",
-  "World Bank procurement (Kenya): 100 read, 2 new active"
+  "World Bank procurement (Kenya): 100 read, 0 new active"
  ],
  "items": [
   {
@@ -91,9 +91,36 @@
     "Agri-food jobs"
    ],
    "funders": []
+  },
+  {
+   "id": "517045686a4c",
+   "v": 2,
+   "first_seen": "2026-10-26",
+   "title": "TERMS OF REFERENCE (TOR) ; Project Entrepreneurship Training Consultant for Jenga ...",
+   "link": "https://reliefweb.int/job/4235221/terms-reference-tor-project-entrepreneurship-training-consultant-jenga-ajira-project",
+   "source": "Google Alert 3",
+   "score": 4,
+   "deadline": "",
+   "contacts": [],
+   "kind": "EOI",
+   "lanes": [
+    "Graduate & youth employability"
+   ],
+   "funders": []
   }
  ],
  "signals": [
+  {
+   "id": "e1a13b7cdbc3",
+   "date": "2026-10-26",
+   "title": "EIB and BCC Iccrea Group agree \u20ac125 million financing to back Italian SMEs and mid-caps, with at least 25% for agriculture and bioeconomy",
+   "link": "https://news.fundsforngos.org/2026/10/26/eib-bcc-iccrea-125-million-financing-smes-midcaps-agriculture-bioeconomy/",
+   "source": "fundsforNGOs",
+   "lanes": [
+    "Agri-food jobs"
+   ],
+   "funders": []
+  },
   {
    "id": "297e0d491ad6",
    "date": "2026-10-21",
@@ -213,7 +240,7 @@
   },
   {
    "lane": "Agri-food jobs",
-   "signals_30d": 6,
+   "signals_30d": 7,
    "signals_prev30d": 0,
    "open_calls": 2,
    "top_funders": [],
@@ -224,7 +251,7 @@
    "lane": "Graduate & youth employability",
    "signals_30d": 1,
    "signals_prev30d": 0,
-   "open_calls": 0,
+   "open_calls": 1,
    "top_funders": [],
    "pitch": false,
    "asset": "StrikeAge, talent assessment and outplacement services"

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T10:08Z",
+ "updated": "2026-10-28T10:54Z",
  "log": [
   "Google Alert 1: 0 read, 0 new active",
   "Google Alert 2: 0 read, 0 new active",
@@ -9,7 +9,7 @@
   "Google Alert 6: 0 read, 0 new active",
   "fundsforNGOs: 64 read, 0 new active",
   "Mastercard Foundation: 37 read, 0 new active",
-  "World Bank procurement (Kenya): 100 read, 0 new active"
+  "World Bank procurement (Kenya): 100 read, 2 new active"
  ],
  "items": [
   {
@@ -41,6 +41,22 @@
    "kind": "RFP",
    "lanes": [
     "Blue-collar & vocational"
+   ],
+   "funders": []
+  },
+  {
+   "id": "0abf48a7d6f8",
+   "v": 2,
+   "first_seen": "2026-10-28",
+   "title": "Procurement and installation of AI Equipment for Newly Constructed AI Centre in College of Agriculture Bauchi, Bauchi State.",
+   "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00477367",
+   "source": "World Bank procurement (Kenya)",
+   "score": 6,
+   "deadline": "2026-11-24",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [
+    "Agri-food jobs"
    ],
    "funders": []
   },
@@ -93,6 +109,22 @@
    "funders": []
   },
   {
+   "id": "396ddf39340c",
+   "v": 2,
+   "first_seen": "2026-10-28",
+   "title": "Acquisition des mat\u00e9riels aratoires en appui \u00e0 la production de contre saison des femmes de la Coop\u00e9rative pour l'Agriculture et de la Production Animale (CAPA SCOOPS) de N'Djam\u00e9na Frah (C2)",
+   "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00477423",
+   "source": "World Bank procurement (Kenya)",
+   "score": 6,
+   "deadline": "",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [
+    "Agri-food jobs"
+   ],
+   "funders": []
+  },
+  {
    "id": "517045686a4c",
    "v": 2,
    "first_seen": "2026-10-26",
@@ -110,6 +142,17 @@
   }
  ],
  "signals": [
+  {
+   "id": "283cf8ad308c",
+   "date": "2026-10-28",
+   "title": "Bread and Water for Africa and FHDO support agricultural training for women and youth farmers in Sierra Leone",
+   "link": "https://news.fundsforngos.org/2026/10/28/bread-and-water-for-africa-fhdo-agricultural-training-sierra-leone/",
+   "source": "fundsforNGOs",
+   "lanes": [
+    "Agri-food jobs"
+   ],
+   "funders": []
+  },
   {
    "id": "e1a13b7cdbc3",
    "date": "2026-10-26",
@@ -240,9 +283,9 @@
   },
   {
    "lane": "Agri-food jobs",
-   "signals_30d": 7,
+   "signals_30d": 8,
    "signals_prev30d": 0,
-   "open_calls": 2,
+   "open_calls": 4,
    "top_funders": [],
    "pitch": false,
    "asset": "the Vijana na Kilimo track record and Bridge's agribusiness clients"

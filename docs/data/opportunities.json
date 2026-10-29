@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T10:54Z",
+ "updated": "2026-10-29T11:12Z",
  "log": [
   "Google Alert 1: 0 read, 0 new active",
   "Google Alert 2: 0 read, 0 new active",
@@ -7,9 +7,9 @@
   "Google Alert 4: 0 read, 0 new active",
   "Google Alert 5: 0 read, 0 new active",
   "Google Alert 6: 0 read, 0 new active",
-  "fundsforNGOs: 64 read, 0 new active",
+  "fundsforNGOs: 64 read, 1 new active",
   "Mastercard Foundation: 37 read, 0 new active",
-  "World Bank procurement (Kenya): 100 read, 2 new active"
+  "World Bank procurement (Kenya): 100 read, 1 new active"
  ],
  "items": [
   {
@@ -125,6 +125,31 @@
    "funders": []
   },
   {
+   "id": "53395a58c795",
+   "v": 2,
+   "first_seen": "2026-10-29",
+   "title": "EBRD backs up to US$16 million for green loans and youth and women\u2019s entrepreneurship in Tajikistan through Humo Bank",
+   "link": "https://news.fundsforngos.org/2026/10/29/ebrd-backs-up-to-16-million-green-loans-youth-women-humo-bank-tajikistan/",
+   "source": "fundsforNGOs",
+   "score": 5,
+   "deadline": "",
+   "contacts": [],
+   "kind": "Grant",
+   "lanes": [
+    "Agri-food jobs",
+    "Graduate & youth employability",
+    "Labour migration"
+   ],
+   "funders": [
+    "World Bank",
+    "African Development Bank",
+    "Rockefeller",
+    "ILO",
+    "UNDP",
+    "IFC"
+   ]
+  },
+  {
    "id": "517045686a4c",
    "v": 2,
    "first_seen": "2026-10-26",
@@ -137,6 +162,22 @@
    "kind": "EOI",
    "lanes": [
     "Graduate & youth employability"
+   ],
+   "funders": []
+  },
+  {
+   "id": "4ce99e8773ba",
+   "v": 2,
+   "first_seen": "2026-10-29",
+   "title": "Consulting Service for Conducting National Digital Skills Assessment, Framework Development and Implementation Plan",
+   "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00477839",
+   "source": "World Bank procurement (Kenya)",
+   "score": 4,
+   "deadline": "",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [
+    "AI & digital skills"
    ],
    "funders": []
   }
@@ -258,7 +299,7 @@
    "lane": "AI & digital skills",
    "signals_30d": 1,
    "signals_prev30d": 0,
-   "open_calls": 0,
+   "open_calls": 1,
    "top_funders": [],
    "pitch": false,
    "asset": "Bridge's recruitment and assessment data, StrikeAge and the HR Excellence Academy"
@@ -285,7 +326,7 @@
    "lane": "Agri-food jobs",
    "signals_30d": 8,
    "signals_prev30d": 0,
-   "open_calls": 4,
+   "open_calls": 5,
    "top_funders": [],
    "pitch": false,
    "asset": "the Vijana na Kilimo track record and Bridge's agribusiness clients"
@@ -294,7 +335,7 @@
    "lane": "Graduate & youth employability",
    "signals_30d": 1,
    "signals_prev30d": 0,
-   "open_calls": 1,
+   "open_calls": 2,
    "top_funders": [],
    "pitch": false,
    "asset": "StrikeAge, talent assessment and outplacement services"
@@ -303,7 +344,7 @@
    "lane": "Labour migration",
    "signals_30d": 0,
    "signals_prev30d": 0,
-   "open_calls": 0,
+   "open_calls": 1,
    "top_funders": [],
    "pitch": false,
    "asset": "immigration, work-permit and contracting compliance services"

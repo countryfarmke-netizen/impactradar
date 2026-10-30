@@ -1,15 +1,15 @@
 {
- "updated": "2026-10-29T11:12Z",
+ "updated": "2026-10-30T11:06Z",
  "log": [
   "Google Alert 1: 0 read, 0 new active",
   "Google Alert 2: 0 read, 0 new active",
   "Google Alert 3: 0 read, 0 new active",
   "Google Alert 4: 0 read, 0 new active",
   "Google Alert 5: 0 read, 0 new active",
-  "Google Alert 6: 0 read, 0 new active",
-  "fundsforNGOs: 64 read, 1 new active",
+  "Google Alert 6: 2 read, 1 new active",
+  "fundsforNGOs: 64 read, 0 new active",
   "Mastercard Foundation: 37 read, 0 new active",
-  "World Bank procurement (Kenya): 100 read, 1 new active"
+  "World Bank procurement (Kenya): 100 read, 0 new active"
  ],
  "items": [
   {
@@ -123,6 +123,24 @@
     "Agri-food jobs"
    ],
    "funders": []
+  },
+  {
+   "id": "6641df7aa451",
+   "v": 2,
+   "first_seen": "2026-10-30",
+   "title": "Open Call: Tarbell Institutional Grants for AI Journalism - fundsforNGOs",
+   "link": "https://www2.fundsforngos.org/individuals/tarbell-center-institutional-grants-for-ai-journalism/",
+   "source": "Google Alert 6",
+   "score": 6,
+   "deadline": "",
+   "contacts": [],
+   "kind": "Grant",
+   "lanes": [
+    "AI & digital skills"
+   ],
+   "funders": [
+    "European Union"
+   ]
   },
   {
    "id": "53395a58c795",
@@ -299,7 +317,7 @@
    "lane": "AI & digital skills",
    "signals_30d": 1,
    "signals_prev30d": 0,
-   "open_calls": 1,
+   "open_calls": 2,
    "top_funders": [],
    "pitch": false,
    "asset": "Bridge's recruitment and assessment data, StrikeAge and the HR Excellence Academy"

@@ -1,15 +1,15 @@
 {
- "updated": "2026-10-31T10:40Z",
+ "updated": "2026-11-01T11:35Z",
  "log": [
   "Google Alert 1: 0 read, 0 new active",
   "Google Alert 2: 0 read, 0 new active",
   "Google Alert 3: 0 read, 0 new active",
-  "Google Alert 4: 1 read, 0 new active",
+  "Google Alert 4: 0 read, 0 new active",
   "Google Alert 5: 0 read, 0 new active",
-  "Google Alert 6: 2 read, 0 new active",
+  "Google Alert 6: 0 read, 0 new active",
   "fundsforNGOs: 64 read, 0 new active",
   "Mastercard Foundation: 37 read, 0 new active",
-  "World Bank procurement (Kenya): 100 read, 0 new active"
+  "World Bank procurement (Kenya): 100 read, 1 new active"
  ],
  "items": [
   {
@@ -141,6 +141,22 @@
    "funders": [
     "European Union"
    ]
+  },
+  {
+   "id": "32250e3e2f7a",
+   "v": 2,
+   "first_seen": "2026-11-01",
+   "title": "Recrutement d'un Cabinet d'Etudes pour un soutien \u00e0 promotion de l'Agriculture sensible \u00e0 la nutrition dans les espaces s\u00fbrs pour femmes et jeunes, fournir de l'\u00e9ducation nutritionnelle communautaire ",
+   "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00478353",
+   "source": "World Bank procurement (Kenya)",
+   "score": 6,
+   "deadline": "",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [
+    "Agri-food jobs"
+   ],
+   "funders": []
   },
   {
    "id": "53395a58c795",
@@ -344,7 +360,7 @@
    "lane": "Agri-food jobs",
    "signals_30d": 8,
    "signals_prev30d": 0,
-   "open_calls": 5,
+   "open_calls": 6,
    "top_funders": [],
    "pitch": false,
    "asset": "the Vijana na Kilimo track record and Bridge's agribusiness clients"

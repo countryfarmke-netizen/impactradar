@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-01T11:35Z",
+ "updated": "2026-11-02T12:59Z",
  "log": [
   "Google Alert 1: 0 read, 0 new active",
   "Google Alert 2: 0 read, 0 new active",
-  "Google Alert 3: 0 read, 0 new active",
+  "Google Alert 3: 1 read, 1 new active",
   "Google Alert 4: 0 read, 0 new active",
   "Google Alert 5: 0 read, 0 new active",
   "Google Alert 6: 0 read, 0 new active",
-  "fundsforNGOs: 64 read, 0 new active",
+  "fundsforNGOs: 64 read, 4 new active",
   "Mastercard Foundation: 37 read, 0 new active",
   "World Bank procurement (Kenya): 100 read, 1 new active"
  ],
@@ -72,6 +72,39 @@
    "contacts": [],
    "kind": "Grant",
    "lanes": [],
+   "funders": []
+  },
+  {
+   "id": "fd8dba926d5f",
+   "v": 2,
+   "first_seen": "2026-11-02",
+   "title": "EBK&#39;s prolonged board vacancy exposes deeper frustrations among Kenya&#39;s engineers",
+   "link": "https://mjengohub.co.ke/articles/industry-insights/ebks-prolonged-board-vacancy-exposes-deeper-frustrations-among-kenyas-engineers",
+   "source": "Google Alert 3",
+   "score": 7,
+   "deadline": "",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [
+    "AI & digital skills",
+    "Graduate & youth employability"
+   ],
+   "funders": []
+  },
+  {
+   "id": "99fb619a4f4e",
+   "v": 2,
+   "first_seen": "2026-11-02",
+   "title": "Construction and Development of Women and youth led agribusiness firms on the drip irrigation system , Solar pumping system, fencing of the 5 hectare gardens and bole hold drip and shades for the gard",
+   "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00478529",
+   "source": "World Bank procurement (Kenya)",
+   "score": 7,
+   "deadline": "",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [
+    "Agri-food jobs"
+   ],
    "funders": []
   },
   {
@@ -214,6 +247,97 @@
     "AI & digital skills"
    ],
    "funders": []
+  },
+  {
+   "id": "23709e491d38",
+   "v": 2,
+   "first_seen": "2026-11-02",
+   "title": "EBRD and EU provide \u20ac10 million to expand microfinance for Montenegro\u2019s MSMEs via Alter Modus, targeting women- and youth-led businesses",
+   "link": "https://news.fundsforngos.org/2026/11/02/ebrd-eu-10-million-expand-microfinance-montenegro-alter-modus/",
+   "source": "fundsforNGOs",
+   "score": 4,
+   "deadline": "",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [
+    "Agri-food jobs"
+   ],
+   "funders": [
+    "World Bank",
+    "African Development Bank",
+    "European Union",
+    "ILO",
+    "IFC"
+   ]
+  },
+  {
+   "id": "e1cce5cd8299",
+   "v": 2,
+   "first_seen": "2026-11-02",
+   "title": "EBRD to lend up to US$25 million to expand youth entrepreneurship lending in Uzbekistan through Davr Bank",
+   "link": "https://news.fundsforngos.org/2026/11/02/ebrd-loan-up-to-us25-million-youth-entrepreneurship-davr-bank-uzbekistan/",
+   "source": "fundsforNGOs",
+   "score": 4,
+   "deadline": "",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [
+    "Agri-food jobs",
+    "Graduate & youth employability"
+   ],
+   "funders": [
+    "World Bank",
+    "African Development Bank",
+    "ILO",
+    "IFC"
+   ]
+  },
+  {
+   "id": "8418b37c1935",
+   "v": 2,
+   "first_seen": "2026-11-02",
+   "title": "ILO presents results from EU-Bangladesh Talent Partnership, training 1,000+ workers and recommending faster skills recognition for EU Member States",
+   "link": "https://news.fundsforngos.org/2026/11/02/ilo-eu-bangladesh-talent-partnership-results-skills-recognition-recommendations/",
+   "source": "fundsforNGOs",
+   "score": 4,
+   "deadline": "",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [
+    "Blue-collar & vocational",
+    "Agri-food jobs",
+    "Labour migration",
+    "Workforce & HR capacity"
+   ],
+   "funders": [
+    "World Bank",
+    "African Development Bank",
+    "European Union",
+    "ILO",
+    "IFC"
+   ]
+  },
+  {
+   "id": "3542626327d0",
+   "v": 2,
+   "first_seen": "2026-11-02",
+   "title": "EIB Global and Dashen Bank unlock \u20ac40 million for green agribusiness and women-led enterprises in Ethiopia",
+   "link": "https://news.fundsforngos.org/2026/11/02/eib-global-dashen-bank-unlock-40-million-green-agribusiness-women-ethiopia/",
+   "source": "fundsforNGOs",
+   "score": 4,
+   "deadline": "",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [
+    "Agri-food jobs"
+   ],
+   "funders": [
+    "World Bank",
+    "African Development Bank",
+    "European Union",
+    "ILO",
+    "IFC"
+   ]
   }
  ],
  "signals": [
@@ -333,7 +457,7 @@
    "lane": "AI & digital skills",
    "signals_30d": 1,
    "signals_prev30d": 0,
-   "open_calls": 2,
+   "open_calls": 3,
    "top_funders": [],
    "pitch": false,
    "asset": "Bridge's recruitment and assessment data, StrikeAge and the HR Excellence Academy"
@@ -351,7 +475,7 @@
    "lane": "Blue-collar & vocational",
    "signals_30d": 0,
    "signals_prev30d": 0,
-   "open_calls": 2,
+   "open_calls": 3,
    "top_funders": [],
    "pitch": false,
    "asset": "bulk recruitment and employee outsourcing across manufacturing, construction and agriculture"
@@ -360,7 +484,7 @@
    "lane": "Agri-food jobs",
    "signals_30d": 8,
    "signals_prev30d": 0,
-   "open_calls": 6,
+   "open_calls": 11,
    "top_funders": [],
    "pitch": false,
    "asset": "the Vijana na Kilimo track record and Bridge's agribusiness clients"
@@ -369,7 +493,7 @@
    "lane": "Graduate & youth employability",
    "signals_30d": 1,
    "signals_prev30d": 0,
-   "open_calls": 2,
+   "open_calls": 4,
    "top_funders": [],
    "pitch": false,
    "asset": "StrikeAge, talent assessment and outplacement services"
@@ -378,7 +502,7 @@
    "lane": "Labour migration",
    "signals_30d": 0,
    "signals_prev30d": 0,
-   "open_calls": 1,
+   "open_calls": 2,
    "top_funders": [],
    "pitch": false,
    "asset": "immigration, work-permit and contracting compliance services"
@@ -387,7 +511,7 @@
    "lane": "Workforce & HR capacity",
    "signals_30d": 0,
    "signals_prev30d": 0,
-   "open_calls": 0,
+   "open_calls": 1,
    "top_funders": [],
    "pitch": false,
    "asset": "HR consulting, payroll and training for NGOs and SMEs"

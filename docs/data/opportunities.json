@@ -1,15 +1,16 @@
 {
- "updated": "2026-11-02T12:59Z",
+ "updated": "2026-11-03T12:31Z",
  "log": [
   "Google Alert 1: 0 read, 0 new active",
-  "Google Alert 2: 0 read, 0 new active",
+  "Google Alert 2: 5 read, 3 new active",
   "Google Alert 3: 1 read, 1 new active",
   "Google Alert 4: 0 read, 0 new active",
   "Google Alert 5: 0 read, 0 new active",
   "Google Alert 6: 0 read, 0 new active",
-  "fundsforNGOs: 64 read, 4 new active",
+  "fundsforNGOs: 64 read, 0 new active",
   "Mastercard Foundation: 37 read, 0 new active",
-  "World Bank procurement (Kenya): 100 read, 1 new active"
+  "World Bank procurement (Kenya): 100 read, 2 new active",
+  "Sheet: {\"added\":2}"
  ],
  "items": [
   {
@@ -61,6 +62,41 @@
    "funders": []
   },
   {
+   "id": "c2e9e3c7d9f7",
+   "v": 2,
+   "first_seen": "2026-11-03",
+   "title": "How Kenyans can move to Canada, Australia and Germany without a job offer - K24 Digital",
+   "link": "https://k24.digital/lifestyle/life-hacks/how-kenyans-can-move-to-canada-australia-and-germany-without-a-job-offer",
+   "source": "Google Alert 3",
+   "score": 9,
+   "deadline": "",
+   "contacts": [],
+   "kind": "EOI",
+   "lanes": [
+    "Blue-collar & vocational"
+   ],
+   "funders": [
+    "European Union",
+    "Safaricom"
+   ]
+  },
+  {
+   "id": "b32916813234",
+   "v": 2,
+   "first_seen": "2026-11-03",
+   "title": "CFAs: Beneficiary Grant for Coffee Quality Infrastructure and Extension Services ( Kenya )",
+   "link": "https://www2.fundsforngos.org/infrastructure-support/beneficiary-grant-for-coffee-quality-infrastructure-and-extension-services/",
+   "source": "Google Alert 2",
+   "score": 8,
+   "deadline": "",
+   "contacts": [],
+   "kind": "Grant",
+   "lanes": [
+    "Agri-food jobs"
+   ],
+   "funders": []
+  },
+  {
    "id": "3f17b6f01225",
    "v": 2,
    "first_seen": "2026-10-23",
@@ -97,6 +133,52 @@
    "first_seen": "2026-11-02",
    "title": "Construction and Development of Women and youth led agribusiness firms on the drip irrigation system , Solar pumping system, fencing of the 5 hectare gardens and bole hold drip and shades for the gard",
    "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00478529",
+   "source": "World Bank procurement (Kenya)",
+   "score": 7,
+   "deadline": "",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [
+    "Agri-food jobs"
+   ],
+   "funders": []
+  },
+  {
+   "id": "7c7f39b6362a",
+   "v": 2,
+   "first_seen": "2026-11-03",
+   "title": "Kenya : Turn Your Ideas into Impact with Grants and Growth Opportunities - fundsforNGOs",
+   "link": "https://www2.fundsforngos.org/listing/kenya-turn-your-ideas-into-impact-with-grants-and-growth-opportunities/",
+   "source": "Google Alert 2",
+   "score": 7,
+   "deadline": "",
+   "contacts": [],
+   "kind": "Grant",
+   "lanes": [],
+   "funders": []
+  },
+  {
+   "id": "2b169525c264",
+   "v": 2,
+   "first_seen": "2026-11-03",
+   "title": "Construction and Development of Women and youth led agribusiness firms on the drip irrigation system , Solar pumping system, fencing of the 5 hectare gardens and bole hold drip and shades for the gard",
+   "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00478798",
+   "source": "World Bank procurement (Kenya)",
+   "score": 7,
+   "deadline": "",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [
+    "Agri-food jobs"
+   ],
+   "funders": []
+  },
+  {
+   "id": "903fc004f646",
+   "v": 2,
+   "first_seen": "2026-11-03",
+   "title": "Construction and Development of Women and youth led agribusiness firms on the drip irrigation system , Solar pumping system, fencing of the 5 hectare gardens and bole hold drip and shades for the gard",
+   "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00478759",
    "source": "World Bank procurement (Kenya)",
    "score": 7,
    "deadline": "",
@@ -338,6 +420,20 @@
     "ILO",
     "IFC"
    ]
+  },
+  {
+   "id": "ed1afe2cee0f",
+   "v": 2,
+   "first_seen": "2026-11-03",
+   "title": "South Africa: 20+ New Grants for NGOs, Healthcare, Conservation, Green Innovation and ...",
+   "link": "https://www2.fundsforngos.org/listing/south-africa-20-new-grants-for-ngos-healthcare-conservation-green-innovation-and-youth-entrepreneurs/",
+   "source": "Google Alert 2",
+   "score": 4,
+   "deadline": "",
+   "contacts": [],
+   "kind": "Grant",
+   "lanes": [],
+   "funders": []
   }
  ],
  "signals": [
@@ -475,7 +571,7 @@
    "lane": "Blue-collar & vocational",
    "signals_30d": 0,
    "signals_prev30d": 0,
-   "open_calls": 3,
+   "open_calls": 4,
    "top_funders": [],
    "pitch": false,
    "asset": "bulk recruitment and employee outsourcing across manufacturing, construction and agriculture"
@@ -484,7 +580,7 @@
    "lane": "Agri-food jobs",
    "signals_30d": 8,
    "signals_prev30d": 0,
-   "open_calls": 11,
+   "open_calls": 14,
    "top_funders": [],
    "pitch": false,
    "asset": "the Vijana na Kilimo track record and Bridge's agribusiness clients"

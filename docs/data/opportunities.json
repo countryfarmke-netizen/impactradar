@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-03T12:31Z",
+ "updated": "2026-11-04T12:41Z",
  "log": [
-  "Google Alert 1: 0 read, 0 new active",
-  "Google Alert 2: 5 read, 3 new active",
-  "Google Alert 3: 1 read, 1 new active",
-  "Google Alert 4: 0 read, 0 new active",
+  "Google Alert 1: 1 read, 0 new active",
+  "Google Alert 2: 0 read, 0 new active",
+  "Google Alert 3: 0 read, 0 new active",
+  "Google Alert 4: 1 read, 0 new active",
   "Google Alert 5: 0 read, 0 new active",
-  "Google Alert 6: 0 read, 0 new active",
+  "Google Alert 6: 1 read, 1 new active",
   "fundsforNGOs: 64 read, 0 new active",
   "Mastercard Foundation: 37 read, 0 new active",
-  "World Bank procurement (Kenya): 100 read, 2 new active",
-  "Sheet: {\"added\":2}"
+  "World Bank procurement (Kenya): 100 read, 0 new active",
+  "Sheet: {\"added\":1}"
  ],
  "items": [
   {
@@ -95,6 +95,27 @@
     "Agri-food jobs"
    ],
    "funders": []
+  },
+  {
+   "id": "4d0d89f9184b",
+   "v": 2,
+   "first_seen": "2026-11-04",
+   "title": "Call for Applications: Fund for Innovation in Development Offers Grants of - MSME Africa",
+   "link": "https://msmeafricaonline.com/call-for-applications-fund-for-innovation-in-development-offers-grants-of-up-to-e4-million-for-innovative-projects/",
+   "source": "Google Alert 6",
+   "score": 8,
+   "deadline": "",
+   "contacts": [],
+   "kind": "Grant",
+   "lanes": [
+    "AI & digital skills",
+    "Agri-food jobs",
+    "Graduate & youth employability"
+   ],
+   "funders": [
+    "World Bank",
+    "ILO"
+   ]
   },
   {
    "id": "3f17b6f01225",
@@ -438,6 +459,17 @@
  ],
  "signals": [
   {
+   "id": "7e6449773036",
+   "date": "2026-11-04",
+   "title": "TVETA boss calls for stronger collaboration to accelerate CBET implementation",
+   "link": "https://educationnews.co.ke/news/tveta-boss-calls-for-stronger-collaboration-to-accelerate-cbet-implementation",
+   "source": "Google Alert 1",
+   "lanes": [
+    "Blue-collar & vocational"
+   ],
+   "funders": []
+  },
+  {
    "id": "283cf8ad308c",
    "date": "2026-10-28",
    "title": "Bread and Water for Africa and FHDO support agricultural training for women and youth farmers in Sierra Leone",
@@ -553,7 +585,7 @@
    "lane": "AI & digital skills",
    "signals_30d": 1,
    "signals_prev30d": 0,
-   "open_calls": 3,
+   "open_calls": 4,
    "top_funders": [],
    "pitch": false,
    "asset": "Bridge's recruitment and assessment data, StrikeAge and the HR Excellence Academy"
@@ -569,7 +601,7 @@
   },
   {
    "lane": "Blue-collar & vocational",
-   "signals_30d": 0,
+   "signals_30d": 1,
    "signals_prev30d": 0,
    "open_calls": 4,
    "top_funders": [],
@@ -580,7 +612,7 @@
    "lane": "Agri-food jobs",
    "signals_30d": 8,
    "signals_prev30d": 0,
-   "open_calls": 14,
+   "open_calls": 15,
    "top_funders": [],
    "pitch": false,
    "asset": "the Vijana na Kilimo track record and Bridge's agribusiness clients"
@@ -589,7 +621,7 @@
    "lane": "Graduate & youth employability",
    "signals_30d": 1,
    "signals_prev30d": 0,
-   "open_calls": 4,
+   "open_calls": 5,
    "top_funders": [],
    "pitch": false,
    "asset": "StrikeAge, talent assessment and outplacement services"

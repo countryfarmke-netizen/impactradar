@@ -1,15 +1,15 @@
 {
- "updated": "2026-11-04T12:41Z",
+ "updated": "2026-11-05T12:52Z",
  "log": [
-  "Google Alert 1: 1 read, 0 new active",
+  "Google Alert 1: 1 read, 1 new active",
   "Google Alert 2: 0 read, 0 new active",
   "Google Alert 3: 0 read, 0 new active",
-  "Google Alert 4: 1 read, 0 new active",
+  "Google Alert 4: 0 read, 0 new active",
   "Google Alert 5: 0 read, 0 new active",
-  "Google Alert 6: 1 read, 1 new active",
+  "Google Alert 6: 0 read, 0 new active",
   "fundsforNGOs: 64 read, 0 new active",
   "Mastercard Foundation: 37 read, 0 new active",
-  "World Bank procurement (Kenya): 100 read, 0 new active",
+  "World Bank procurement (Kenya): 100 read, 1 new active",
   "Sheet: {\"added\":1}"
  ],
  "items": [
@@ -60,6 +60,31 @@
     "Agri-food jobs"
    ],
    "funders": []
+  },
+  {
+   "id": "fbfb088a4b06",
+   "v": 2,
+   "first_seen": "2026-11-05",
+   "title": "Digital skills in Kenya face a changing jobs market - TechTrendsKE",
+   "link": "https://techtrendske.co.ke/2026/11/04/digital-skills-kenya/",
+   "source": "Google Alert 1",
+   "score": 15,
+   "deadline": "",
+   "contacts": [
+    "george@techtrendsmedia.co.ke",
+    "info@techtrendsmedia.co.ke"
+   ],
+   "kind": "RFP",
+   "lanes": [
+    "AI & digital skills",
+    "Blue-collar & vocational",
+    "Workforce & HR capacity"
+   ],
+   "funders": [
+    "Microsoft",
+    "UNDP",
+    "Safaricom"
+   ]
   },
   {
    "id": "c2e9e3c7d9f7",
@@ -320,6 +345,22 @@
    ]
   },
   {
+   "id": "77adf16c82d1",
+   "v": 2,
+   "first_seen": "2026-11-05",
+   "title": "Specialized Training of 100 Women Entrepreneurs in Agribusiness and Horticulture in Rubanda District",
+   "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00479217",
+   "source": "World Bank procurement (Kenya)",
+   "score": 5,
+   "deadline": "",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [
+    "Agri-food jobs"
+   ],
+   "funders": []
+  },
+  {
    "id": "517045686a4c",
    "v": 2,
    "first_seen": "2026-10-26",
@@ -459,6 +500,17 @@
  ],
  "signals": [
   {
+   "id": "7da1a0ab104a",
+   "date": "2026-11-05",
+   "title": "Kenya signs agreement with Talent Beyond Boundaries to train and help young people and refugees seek jobs in Canada after EMPP closure",
+   "link": "https://news.fundsforngos.org/2026/11/05/kenya-signs-pact-talent-beyond-boundaries-train-youth-refugees-canada-jobs-empp-closure/",
+   "source": "fundsforNGOs",
+   "lanes": [
+    "Graduate & youth employability"
+   ],
+   "funders": []
+  },
+  {
    "id": "7e6449773036",
    "date": "2026-11-04",
    "title": "TVETA boss calls for stronger collaboration to accelerate CBET implementation",
@@ -585,7 +637,7 @@
    "lane": "AI & digital skills",
    "signals_30d": 1,
    "signals_prev30d": 0,
-   "open_calls": 4,
+   "open_calls": 5,
    "top_funders": [],
    "pitch": false,
    "asset": "Bridge's recruitment and assessment data, StrikeAge and the HR Excellence Academy"
@@ -603,7 +655,7 @@
    "lane": "Blue-collar & vocational",
    "signals_30d": 1,
    "signals_prev30d": 0,
-   "open_calls": 4,
+   "open_calls": 5,
    "top_funders": [],
    "pitch": false,
    "asset": "bulk recruitment and employee outsourcing across manufacturing, construction and agriculture"
@@ -612,14 +664,14 @@
    "lane": "Agri-food jobs",
    "signals_30d": 8,
    "signals_prev30d": 0,
-   "open_calls": 15,
+   "open_calls": 16,
    "top_funders": [],
    "pitch": false,
    "asset": "the Vijana na Kilimo track record and Bridge's agribusiness clients"
   },
   {
    "lane": "Graduate & youth employability",
-   "signals_30d": 1,
+   "signals_30d": 2,
    "signals_prev30d": 0,
    "open_calls": 5,
    "top_funders": [],
@@ -639,7 +691,7 @@
    "lane": "Workforce & HR capacity",
    "signals_30d": 0,
    "signals_prev30d": 0,
-   "open_calls": 1,
+   "open_calls": 2,
    "top_funders": [],
    "pitch": false,
    "asset": "HR consulting, payroll and training for NGOs and SMEs"

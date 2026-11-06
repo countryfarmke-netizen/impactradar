@@ -1,34 +1,17 @@
 {
- "updated": "2026-11-05T12:52Z",
+ "updated": "2026-11-06T12:37Z",
  "log": [
-  "Google Alert 1: 1 read, 1 new active",
+  "Google Alert 1: 0 read, 0 new active",
   "Google Alert 2: 0 read, 0 new active",
   "Google Alert 3: 0 read, 0 new active",
   "Google Alert 4: 0 read, 0 new active",
   "Google Alert 5: 0 read, 0 new active",
-  "Google Alert 6: 0 read, 0 new active",
+  "Google Alert 6: 2 read, 2 new active",
   "fundsforNGOs: 64 read, 0 new active",
   "Mastercard Foundation: 37 read, 0 new active",
-  "World Bank procurement (Kenya): 100 read, 1 new active",
-  "Sheet: {\"added\":1}"
+  "World Bank procurement (Kenya): 100 read, 0 new active"
  ],
  "items": [
-  {
-   "id": "be20693dc42b",
-   "v": 2,
-   "first_seen": "2026-10-24",
-   "title": "Consulting Services for Practical Training on Agricultural Drone Operations, Multispectral Data Acquisition and Processing for the Agriculture Technical Team (ATT)",
-   "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00476722",
-   "source": "World Bank procurement (Kenya)",
-   "score": 6,
-   "deadline": "2026-11-05",
-   "contacts": [],
-   "kind": "RFP",
-   "lanes": [
-    "Agri-food jobs"
-   ],
-   "funders": []
-  },
   {
    "id": "3f93864d2e0d",
    "v": 2,
@@ -58,6 +41,22 @@
    "kind": "RFP",
    "lanes": [
     "Agri-food jobs"
+   ],
+   "funders": []
+  },
+  {
+   "id": "5f635f5b195f",
+   "v": 2,
+   "first_seen": "2026-11-06",
+   "title": "Applications Open for Restack Open Internet Stack Grants - fundsforNGOs",
+   "link": "https://www2.fundsforngos.org/research-2/restack-funding-opportunity-for-open-internet-stack-projects/",
+   "source": "Google Alert 6",
+   "score": 4,
+   "deadline": "2027-01-03",
+   "contacts": [],
+   "kind": "Grant",
+   "lanes": [
+    "AI & digital skills"
    ],
    "funders": []
   },
@@ -496,6 +495,22 @@
    "kind": "Grant",
    "lanes": [],
    "funders": []
+  },
+  {
+   "id": "f899a75b4fae",
+   "v": 2,
+   "first_seen": "2026-11-06",
+   "title": "Call for Proposals : Gender-Responsive Climate Solutions Microprojects in Burkina Faso",
+   "link": "https://www2.fundsforngos.org/environment-2/call-for-proposals-gender-sensitive-climate-solutions-microprojects-by-wep/",
+   "source": "Google Alert 6",
+   "score": 4,
+   "deadline": "",
+   "contacts": [],
+   "kind": "Grant",
+   "lanes": [
+    "AI & digital skills"
+   ],
+   "funders": []
   }
  ],
  "signals": [
@@ -637,7 +652,7 @@
    "lane": "AI & digital skills",
    "signals_30d": 1,
    "signals_prev30d": 0,
-   "open_calls": 5,
+   "open_calls": 7,
    "top_funders": [],
    "pitch": false,
    "asset": "Bridge's recruitment and assessment data, StrikeAge and the HR Excellence Academy"
@@ -664,7 +679,7 @@
    "lane": "Agri-food jobs",
    "signals_30d": 8,
    "signals_prev30d": 0,
-   "open_calls": 16,
+   "open_calls": 15,
    "top_funders": [],
    "pitch": false,
    "asset": "the Vijana na Kilimo track record and Bridge's agribusiness clients"

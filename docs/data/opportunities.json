@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T11:26Z",
+ "updated": "2026-11-08T11:37Z",
  "log": [
   "Google Alert 1: 0 read, 0 new active",
   "Google Alert 2: 0 read, 0 new active",
@@ -9,9 +9,74 @@
   "Google Alert 6: 0 read, 0 new active",
   "fundsforNGOs: 64 read, 0 new active",
   "Mastercard Foundation: 37 read, 0 new active",
-  "World Bank procurement (Kenya): 100 read, 0 new active"
+  "World Bank procurement (Kenya): 100 read, 6 new active",
+  "Sheet: {\"added\":4}"
  ],
  "items": [
+  {
+   "id": "7b6fb4f98a9f",
+   "v": 2,
+   "first_seen": "2026-11-08",
+   "title": "Recruitment of Youth Employment Specialist for Debre Brehan City",
+   "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00480016",
+   "source": "World Bank procurement (Kenya)",
+   "score": 8,
+   "deadline": "2026-11-18",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [
+    "Graduate & youth employability"
+   ],
+   "funders": []
+  },
+  {
+   "id": "680094c1f93b",
+   "v": 2,
+   "first_seen": "2026-11-08",
+   "title": "Recruitment of Youth Employment Specialist for Debre Tabor City",
+   "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00480020",
+   "source": "World Bank procurement (Kenya)",
+   "score": 8,
+   "deadline": "2026-11-18",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [
+    "Graduate & youth employability"
+   ],
+   "funders": []
+  },
+  {
+   "id": "576004b9c7b7",
+   "v": 2,
+   "first_seen": "2026-11-08",
+   "title": "Recruitment of Youth Employment Specialist for Debre Markos City",
+   "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00480022",
+   "source": "World Bank procurement (Kenya)",
+   "score": 8,
+   "deadline": "2026-11-18",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [
+    "Graduate & youth employability"
+   ],
+   "funders": []
+  },
+  {
+   "id": "e760484b334d",
+   "v": 2,
+   "first_seen": "2026-11-08",
+   "title": "Recruitment of Youth Employment Specialist for Dessie City",
+   "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00480018",
+   "source": "World Bank procurement (Kenya)",
+   "score": 8,
+   "deadline": "2026-11-18",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [
+    "Graduate & youth employability"
+   ],
+   "funders": []
+  },
   {
    "id": "3f93864d2e0d",
    "v": 2,
@@ -319,6 +384,22 @@
    "funders": []
   },
   {
+   "id": "372ccfae9931",
+   "v": 2,
+   "first_seen": "2026-11-08",
+   "title": "Hiring of INDIVIDUAL CONSULTANT WATER RESOURCE EXPERT to implement the modernization concept and intervention under the Sindh Water and Agriculture Transformation (SWAT).",
+   "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00480027",
+   "source": "World Bank procurement (Kenya)",
+   "score": 6,
+   "deadline": "",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [
+    "Agri-food jobs"
+   ],
+   "funders": []
+  },
+  {
    "id": "53395a58c795",
    "v": 2,
    "first_seen": "2026-10-29",
@@ -511,6 +592,22 @@
     "AI & digital skills"
    ],
    "funders": []
+  },
+  {
+   "id": "a90fc3f81206",
+   "v": 2,
+   "first_seen": "2026-11-08",
+   "title": "Advanced Tailoring Skills Training for Women Entrepreneurs in Kyankwanzi District",
+   "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00479921",
+   "source": "World Bank procurement (Kenya)",
+   "score": 4,
+   "deadline": "",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [],
+   "funders": [
+    "ILO"
+   ]
   }
  ],
  "signals": [
@@ -679,7 +776,7 @@
    "lane": "Agri-food jobs",
    "signals_30d": 8,
    "signals_prev30d": 0,
-   "open_calls": 15,
+   "open_calls": 16,
    "top_funders": [],
    "pitch": false,
    "asset": "the Vijana na Kilimo track record and Bridge's agribusiness clients"
@@ -688,7 +785,7 @@
    "lane": "Graduate & youth employability",
    "signals_30d": 2,
    "signals_prev30d": 0,
-   "open_calls": 5,
+   "open_calls": 9,
    "top_funders": [],
    "pitch": false,
    "asset": "StrikeAge, talent assessment and outplacement services"

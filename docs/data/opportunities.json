@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T11:37Z",
+ "updated": "2026-11-09T13:29Z",
  "log": [
   "Google Alert 1: 0 read, 0 new active",
   "Google Alert 2: 0 read, 0 new active",
@@ -9,8 +9,7 @@
   "Google Alert 6: 0 read, 0 new active",
   "fundsforNGOs: 64 read, 0 new active",
   "Mastercard Foundation: 37 read, 0 new active",
-  "World Bank procurement (Kenya): 100 read, 6 new active",
-  "Sheet: {\"added\":4}"
+  "World Bank procurement (Kenya): 100 read, 0 new active"
  ],
  "items": [
   {
@@ -612,6 +611,32 @@
  ],
  "signals": [
   {
+   "id": "32cbc1371f94",
+   "date": "2026-11-09",
+   "title": "African Development Bank approves $60 million loan for Tanzania to expand agricultural lending through TADB Equity Enhancement Phase III",
+   "link": "https://news.fundsforngos.org/2026/11/09/afdb-60-million-loan-tanzania-tadb-equity-enhancement-phase-iii-agricultural-financing/",
+   "source": "fundsforNGOs",
+   "lanes": [
+    "Agri-food jobs"
+   ],
+   "funders": [
+    "African Development Bank"
+   ]
+  },
+  {
+   "id": "19e5ae4edb62",
+   "date": "2026-11-09",
+   "title": "African Development Bank backs Young Graduate placements for 15 Mozambican engineers on northern road projects",
+   "link": "https://news.fundsforngos.org/2026/11/09/afdb-young-graduate-placements-15-mozambican-engineers-northern-roads/",
+   "source": "fundsforNGOs",
+   "lanes": [
+    "Graduate & youth employability"
+   ],
+   "funders": [
+    "African Development Bank"
+   ]
+  },
+  {
    "id": "7da1a0ab104a",
    "date": "2026-11-05",
    "title": "Kenya signs agreement with Talent Beyond Boundaries to train and help young people and refugees seek jobs in Canada after EMPP closure",
@@ -774,19 +799,23 @@
   },
   {
    "lane": "Agri-food jobs",
-   "signals_30d": 8,
+   "signals_30d": 9,
    "signals_prev30d": 0,
    "open_calls": 16,
-   "top_funders": [],
+   "top_funders": [
+    "African Development Bank"
+   ],
    "pitch": false,
    "asset": "the Vijana na Kilimo track record and Bridge's agribusiness clients"
   },
   {
    "lane": "Graduate & youth employability",
-   "signals_30d": 2,
+   "signals_30d": 3,
    "signals_prev30d": 0,
    "open_calls": 9,
-   "top_funders": [],
+   "top_funders": [
+    "African Development Bank"
+   ],
    "pitch": false,
    "asset": "StrikeAge, talent assessment and outplacement services"
   },

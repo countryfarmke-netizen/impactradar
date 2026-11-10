@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T13:29Z",
+ "updated": "2026-11-10T13:09Z",
  "log": [
   "Google Alert 1: 0 read, 0 new active",
   "Google Alert 2: 0 read, 0 new active",
@@ -9,7 +9,8 @@
   "Google Alert 6: 0 read, 0 new active",
   "fundsforNGOs: 64 read, 0 new active",
   "Mastercard Foundation: 37 read, 0 new active",
-  "World Bank procurement (Kenya): 100 read, 0 new active"
+  "World Bank procurement (Kenya): 100 read, 3 new active",
+  "Sheet: {\"added\":3}"
  ],
  "items": [
   {
@@ -89,6 +90,57 @@
    "kind": "RFP",
    "lanes": [
     "Blue-collar & vocational"
+   ],
+   "funders": []
+  },
+  {
+   "id": "ef2808ebf4b7",
+   "v": 2,
+   "first_seen": "2026-11-10",
+   "title": "Recruitment of 1 Youth Employment Apprenticeship Specialist for Ambo city",
+   "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00480274",
+   "source": "World Bank procurement (Kenya)",
+   "score": 10,
+   "deadline": "2026-11-23",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [
+    "Blue-collar & vocational",
+    "Graduate & youth employability"
+   ],
+   "funders": []
+  },
+  {
+   "id": "f179238659dd",
+   "v": 2,
+   "first_seen": "2026-11-10",
+   "title": "Recruitment of 1 Youth Employment Apprenticeship Specialist for Nekemte city",
+   "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00480294",
+   "source": "World Bank procurement (Kenya)",
+   "score": 10,
+   "deadline": "2026-11-23",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [
+    "Blue-collar & vocational",
+    "Graduate & youth employability"
+   ],
+   "funders": []
+  },
+  {
+   "id": "f7eb64126d65",
+   "v": 2,
+   "first_seen": "2026-11-10",
+   "title": "Recruitment of 1 Youth Employment Apprenticeship Specialist for Bishoftu city",
+   "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00480291",
+   "source": "World Bank procurement (Kenya)",
+   "score": 10,
+   "deadline": "2026-11-23",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [
+    "Blue-collar & vocational",
+    "Graduate & youth employability"
    ],
    "funders": []
   },
@@ -792,7 +844,7 @@
    "lane": "Blue-collar & vocational",
    "signals_30d": 1,
    "signals_prev30d": 0,
-   "open_calls": 5,
+   "open_calls": 8,
    "top_funders": [],
    "pitch": false,
    "asset": "bulk recruitment and employee outsourcing across manufacturing, construction and agriculture"
@@ -812,7 +864,7 @@
    "lane": "Graduate & youth employability",
    "signals_30d": 3,
    "signals_prev30d": 0,
-   "open_calls": 9,
+   "open_calls": 12,
    "top_funders": [
     "African Development Bank"
    ],

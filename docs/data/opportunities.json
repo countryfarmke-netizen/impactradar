@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-10T13:09Z",
+ "updated": "2026-11-11T12:19Z",
  "log": [
-  "Google Alert 1: 0 read, 0 new active",
+  "Google Alert 1: 1 read, 1 new active",
   "Google Alert 2: 0 read, 0 new active",
   "Google Alert 3: 0 read, 0 new active",
   "Google Alert 4: 0 read, 0 new active",
   "Google Alert 5: 0 read, 0 new active",
-  "Google Alert 6: 0 read, 0 new active",
+  "Google Alert 6: 1 read, 0 new active",
   "fundsforNGOs: 64 read, 0 new active",
   "Mastercard Foundation: 37 read, 0 new active",
   "World Bank procurement (Kenya): 100 read, 3 new active",
-  "Sheet: {\"added\":3}"
+  "Sheet: {\"added\":1}"
  ],
  "items": [
   {
@@ -157,6 +157,38 @@
    "kind": "RFP",
    "lanes": [
     "Agri-food jobs"
+   ],
+   "funders": []
+  },
+  {
+   "id": "fab6d07f6eab",
+   "v": 2,
+   "first_seen": "2026-11-11",
+   "title": "Development of Artificial Intelligence Competency Frameworks for Kenya\u2019s Education System",
+   "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00480442",
+   "source": "World Bank procurement (Kenya)",
+   "score": 7,
+   "deadline": "2026-11-25",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [
+    "AI & digital skills"
+   ],
+   "funders": []
+  },
+  {
+   "id": "1ecfc9a09e34",
+   "v": 2,
+   "first_seen": "2026-11-11",
+   "title": "Enhancement of the Smart Academy Portal as Kenya\u2019s National Digital Skills Marketplace and Ecosystem Aggregator",
+   "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00480438",
+   "source": "World Bank procurement (Kenya)",
+   "score": 8,
+   "deadline": "2026-12-22",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [
+    "AI & digital skills"
    ],
    "funders": []
   },
@@ -351,6 +383,25 @@
    "funders": []
   },
   {
+   "id": "cc713bc4e213",
+   "v": 2,
+   "first_seen": "2026-11-11",
+   "title": "China Road and Bridge wins another Ksh1.2B tender as Rironi-Mau Summit project continues",
+   "link": "https://peopledaily.digital/business/china-road-and-bridge-wins-another-ksh1-2b-tender-as-rironi-mau-summit-project-continues",
+   "source": "Google Alert 1",
+   "score": 7,
+   "deadline": "",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [
+    "Blue-collar & vocational"
+   ],
+   "funders": [
+    "ILO",
+    "Safaricom"
+   ]
+  },
+  {
    "id": "a4deb3b16243",
    "v": 2,
    "first_seen": "2026-10-22",
@@ -481,6 +532,22 @@
    "first_seen": "2026-11-05",
    "title": "Specialized Training of 100 Women Entrepreneurs in Agribusiness and Horticulture in Rubanda District",
    "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00479217",
+   "source": "World Bank procurement (Kenya)",
+   "score": 5,
+   "deadline": "",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [
+    "Agri-food jobs"
+   ],
+   "funders": []
+  },
+  {
+   "id": "b7607d55a88d",
+   "v": 2,
+   "first_seen": "2026-11-11",
+   "title": "Recruitment of a consultancy firm to conduct an end-line assessment of the Resilient Agricultural Livelihoods Project (RALP)",
+   "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00480546",
    "source": "World Bank procurement (Kenya)",
    "score": 5,
    "deadline": "",
@@ -826,7 +893,7 @@
    "lane": "AI & digital skills",
    "signals_30d": 1,
    "signals_prev30d": 0,
-   "open_calls": 7,
+   "open_calls": 9,
    "top_funders": [],
    "pitch": false,
    "asset": "Bridge's recruitment and assessment data, StrikeAge and the HR Excellence Academy"
@@ -844,7 +911,7 @@
    "lane": "Blue-collar & vocational",
    "signals_30d": 1,
    "signals_prev30d": 0,
-   "open_calls": 8,
+   "open_calls": 9,
    "top_funders": [],
    "pitch": false,
    "asset": "bulk recruitment and employee outsourcing across manufacturing, construction and agriculture"
@@ -853,7 +920,7 @@
    "lane": "Agri-food jobs",
    "signals_30d": 9,
    "signals_prev30d": 0,
-   "open_calls": 16,
+   "open_calls": 17,
    "top_funders": [
     "African Development Bank"
    ],

@@ -1,16 +1,15 @@
 {
- "updated": "2026-11-11T12:19Z",
+ "updated": "2026-11-12T13:28Z",
  "log": [
-  "Google Alert 1: 1 read, 1 new active",
+  "Google Alert 1: 1 read, 0 new active",
   "Google Alert 2: 0 read, 0 new active",
   "Google Alert 3: 0 read, 0 new active",
   "Google Alert 4: 0 read, 0 new active",
   "Google Alert 5: 0 read, 0 new active",
-  "Google Alert 6: 1 read, 0 new active",
+  "Google Alert 6: 0 read, 0 new active",
   "fundsforNGOs: 64 read, 0 new active",
   "Mastercard Foundation: 37 read, 0 new active",
-  "World Bank procurement (Kenya): 100 read, 3 new active",
-  "Sheet: {\"added\":1}"
+  "World Bank procurement (Kenya): 100 read, 0 new active"
  ],
  "items": [
   {
@@ -730,6 +729,39 @@
  ],
  "signals": [
   {
+   "id": "b3a54f9c8514",
+   "date": "2026-11-12",
+   "title": "KUTVET opposes plan to transfer TVET trainers&#39; employment to polytechnic councils",
+   "link": "https://www.youtube.com/watch?v=4l78ec4bl80",
+   "source": "Google Alert 1",
+   "lanes": [
+    "Blue-collar & vocational"
+   ],
+   "funders": []
+  },
+  {
+   "id": "fc675b654b10",
+   "date": "2026-11-12",
+   "title": "Ireland\u2019s agri-food exports hit a record \u20ac20.8 billion in 2025 as Minister Martin Heydon launches Annual Review and Outlook 2025\u20132026",
+   "link": "https://news.fundsforngos.org/2026/11/12/ireland-agri-food-exports-record-20-8-billion-2025-annual-review-outlook-2025-2026/",
+   "source": "fundsforNGOs",
+   "lanes": [
+    "Agri-food jobs"
+   ],
+   "funders": []
+  },
+  {
+   "id": "557942b4e181",
+   "date": "2026-11-12",
+   "title": "COP31 in Antalya to focus on climate finance, clean energy, health and agriculture as nearly 200 countries negotiate decisions",
+   "link": "https://news.fundsforngos.org/2026/11/12/cop31-antalya-climate-finance-health-agriculture-90k-attendance/",
+   "source": "fundsforNGOs",
+   "lanes": [
+    "Agri-food jobs"
+   ],
+   "funders": []
+  },
+  {
    "id": "32cbc1371f94",
    "date": "2026-11-09",
    "title": "African Development Bank approves $60 million loan for Tanzania to expand agricultural lending through TADB Equity Enhancement Phase III",
@@ -909,7 +941,7 @@
   },
   {
    "lane": "Blue-collar & vocational",
-   "signals_30d": 1,
+   "signals_30d": 2,
    "signals_prev30d": 0,
    "open_calls": 9,
    "top_funders": [],
@@ -918,7 +950,7 @@
   },
   {
    "lane": "Agri-food jobs",
-   "signals_30d": 9,
+   "signals_30d": 11,
    "signals_prev30d": 0,
    "open_calls": 17,
    "top_funders": [

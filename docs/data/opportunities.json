@@ -1,15 +1,15 @@
 {
- "updated": "2026-11-12T13:28Z",
+ "updated": "2026-11-13T12:44Z",
  "log": [
-  "Google Alert 1: 1 read, 0 new active",
+  "Google Alert 1: 0 read, 0 new active",
   "Google Alert 2: 0 read, 0 new active",
   "Google Alert 3: 0 read, 0 new active",
   "Google Alert 4: 0 read, 0 new active",
-  "Google Alert 5: 0 read, 0 new active",
-  "Google Alert 6: 0 read, 0 new active",
+  "Google Alert 5: 1 read, 1 new active",
+  "Google Alert 6: 1 read, 1 new active",
   "fundsforNGOs: 64 read, 0 new active",
   "Mastercard Foundation: 37 read, 0 new active",
-  "World Bank procurement (Kenya): 100 read, 0 new active"
+  "World Bank procurement (Kenya): 100 read, 1 new active"
  ],
  "items": [
   {
@@ -501,6 +501,22 @@
    "funders": []
   },
   {
+   "id": "aeb3b2781b18",
+   "v": 2,
+   "first_seen": "2026-11-13",
+   "title": "Mise en \u0153uvre d'un programme de formation et d'apprentissage de 100 jeunes dans les m\u00e9tier de l'agriculture (\u00e9levage, aquaculture) \u00e0 Sinematiali",
+   "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00481263",
+   "source": "World Bank procurement (Kenya)",
+   "score": 6,
+   "deadline": "",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [
+    "Agri-food jobs"
+   ],
+   "funders": []
+  },
+  {
    "id": "53395a58c795",
    "v": 2,
    "first_seen": "2026-10-29",
@@ -725,6 +741,39 @@
    "funders": [
     "ILO"
    ]
+  },
+  {
+   "id": "7a7631434452",
+   "v": 2,
+   "first_seen": "2026-11-13",
+   "title": "Nigeria&#39;s Raenest acquires UK-based payments company Remitise - - Disrupt Africa",
+   "link": "https://disruptafrica.com/2026/11/12/nigerias-raenest-acquires-uk-based-payments-company-remitise/",
+   "source": "Google Alert 5",
+   "score": 4,
+   "deadline": "",
+   "contacts": [],
+   "kind": "Grant",
+   "lanes": [
+    "Gig & platform work"
+   ],
+   "funders": []
+  },
+  {
+   "id": "43934a090a33",
+   "v": 2,
+   "first_seen": "2026-11-13",
+   "title": "Call for Applications: AI and Digital Skills Program for CSOs (India) - fundsforNGOs",
+   "link": "https://www2.fundsforngos.org/community-development-2/call-for-applications-ai-and-digital-skills-program-for-csos-india/",
+   "source": "Google Alert 6",
+   "score": 4,
+   "deadline": "",
+   "contacts": [],
+   "kind": "Grant",
+   "lanes": [
+    "AI & digital skills",
+    "Agri-food jobs"
+   ],
+   "funders": []
   }
  ],
  "signals": [
@@ -925,7 +974,7 @@
    "lane": "AI & digital skills",
    "signals_30d": 1,
    "signals_prev30d": 0,
-   "open_calls": 9,
+   "open_calls": 10,
    "top_funders": [],
    "pitch": false,
    "asset": "Bridge's recruitment and assessment data, StrikeAge and the HR Excellence Academy"
@@ -934,7 +983,7 @@
    "lane": "Gig & platform work",
    "signals_30d": 0,
    "signals_prev30d": 0,
-   "open_calls": 0,
+   "open_calls": 1,
    "top_funders": [],
    "pitch": false,
    "asset": "payroll and compliance expertise to formalise and protect gig workers"
@@ -952,7 +1001,7 @@
    "lane": "Agri-food jobs",
    "signals_30d": 11,
    "signals_prev30d": 0,
-   "open_calls": 17,
+   "open_calls": 19,
    "top_funders": [
     "African Development Bank"
    ],

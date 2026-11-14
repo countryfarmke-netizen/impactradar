@@ -1,15 +1,15 @@
 {
- "updated": "2026-11-13T12:44Z",
+ "updated": "2026-11-14T11:52Z",
  "log": [
-  "Google Alert 1: 0 read, 0 new active",
+  "Google Alert 1: 1 read, 1 new active",
   "Google Alert 2: 0 read, 0 new active",
   "Google Alert 3: 0 read, 0 new active",
-  "Google Alert 4: 0 read, 0 new active",
-  "Google Alert 5: 1 read, 1 new active",
-  "Google Alert 6: 1 read, 1 new active",
+  "Google Alert 4: 1 read, 0 new active",
+  "Google Alert 5: 0 read, 0 new active",
+  "Google Alert 6: 0 read, 0 new active",
   "fundsforNGOs: 64 read, 0 new active",
   "Mastercard Foundation: 37 read, 0 new active",
-  "World Bank procurement (Kenya): 100 read, 1 new active"
+  "World Bank procurement (Kenya): 100 read, 2 new active"
  ],
  "items": [
   {
@@ -401,6 +401,39 @@
    ]
   },
   {
+   "id": "e0512b996880",
+   "v": 2,
+   "first_seen": "2026-11-14",
+   "title": "Germany-Funded TVET Scholarships 2026 in Kenya - Global South Opportunities",
+   "link": "https://www.globalsouthopportunities.com/2026/11/13/kenya-37/",
+   "source": "Google Alert 1",
+   "score": 7,
+   "deadline": "",
+   "contacts": [],
+   "kind": "Grant",
+   "lanes": [
+    "Blue-collar & vocational",
+    "Agri-food jobs"
+   ],
+   "funders": []
+  },
+  {
+   "id": "d34729c3dfa5",
+   "v": 2,
+   "first_seen": "2026-11-14",
+   "title": "Inbound Export Missions to Strategic Sectors of Moldova Agri-Food and Furniture",
+   "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00481335",
+   "source": "World Bank procurement (Kenya)",
+   "score": 7,
+   "deadline": "",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [
+    "Agri-food jobs"
+   ],
+   "funders": []
+  },
+  {
    "id": "a4deb3b16243",
    "v": 2,
    "first_seen": "2026-10-22",
@@ -506,6 +539,22 @@
    "first_seen": "2026-11-13",
    "title": "Mise en \u0153uvre d'un programme de formation et d'apprentissage de 100 jeunes dans les m\u00e9tier de l'agriculture (\u00e9levage, aquaculture) \u00e0 Sinematiali",
    "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00481263",
+   "source": "World Bank procurement (Kenya)",
+   "score": 6,
+   "deadline": "",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [
+    "Agri-food jobs"
+   ],
+   "funders": []
+  },
+  {
+   "id": "097343a38e87",
+   "v": 2,
+   "first_seen": "2026-11-14",
+   "title": "Amhara Bureau of Agriculture procurement of improved wheat seeds",
+   "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00481323",
    "source": "World Bank procurement (Kenya)",
    "score": 6,
    "deadline": "",
@@ -992,7 +1041,7 @@
    "lane": "Blue-collar & vocational",
    "signals_30d": 2,
    "signals_prev30d": 0,
-   "open_calls": 9,
+   "open_calls": 10,
    "top_funders": [],
    "pitch": false,
    "asset": "bulk recruitment and employee outsourcing across manufacturing, construction and agriculture"
@@ -1001,7 +1050,7 @@
    "lane": "Agri-food jobs",
    "signals_30d": 11,
    "signals_prev30d": 0,
-   "open_calls": 19,
+   "open_calls": 22,
    "top_funders": [
     "African Development Bank"
    ],

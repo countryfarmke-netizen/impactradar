@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-15T12:23Z",
+ "updated": "2026-11-16T13:15Z",
  "log": [
   "Google Alert 1: 0 read, 0 new active",
   "Google Alert 2: 0 read, 0 new active",
   "Google Alert 3: 0 read, 0 new active",
   "Google Alert 4: 0 read, 0 new active",
   "Google Alert 5: 0 read, 0 new active",
-  "Google Alert 6: 1 read, 1 new active",
+  "Google Alert 6: 0 read, 0 new active",
   "fundsforNGOs: 64 read, 0 new active",
   "Mastercard Foundation: 37 read, 0 new active",
   "World Bank procurement (Kenya): 100 read, 0 new active"
@@ -843,6 +843,33 @@
  ],
  "signals": [
   {
+   "id": "cfcf724cdb78",
+   "date": "2026-11-16",
+   "title": "EU and ILO support Iraq youth employment agenda through BEIT programme at Baghdad conference with 160 researchers",
+   "link": "https://news.fundsforngos.org/2026/11/16/eu-ilo-beit-supports-iraq-youth-employment-baghdad-conference/",
+   "source": "fundsforNGOs",
+   "lanes": [
+    "Graduate & youth employability"
+   ],
+   "funders": [
+    "ILO"
+   ]
+  },
+  {
+   "id": "3d5b25a7f717",
+   "date": "2026-11-16",
+   "title": "ILO, GIZ and partners train Ghana on gender-responsive fair recruitment for labour migration ahead of policy review",
+   "link": "https://news.fundsforngos.org/2026/11/16/ghana-workshop-gender-responsive-fair-recruitment-ilo-giz-fair-recruitment-forward/",
+   "source": "fundsforNGOs",
+   "lanes": [
+    "Labour migration"
+   ],
+   "funders": [
+    "GIZ",
+    "ILO"
+   ]
+  },
+  {
    "id": "b3a54f9c8514",
    "date": "2026-11-12",
    "title": "KUTVET opposes plan to transfer TVET trainers&#39; employment to polytechnic councils",
@@ -1075,10 +1102,11 @@
   },
   {
    "lane": "Graduate & youth employability",
-   "signals_30d": 3,
+   "signals_30d": 4,
    "signals_prev30d": 0,
    "open_calls": 12,
    "top_funders": [
+    "ILO",
     "African Development Bank"
    ],
    "pitch": false,
@@ -1086,10 +1114,13 @@
   },
   {
    "lane": "Labour migration",
-   "signals_30d": 0,
+   "signals_30d": 1,
    "signals_prev30d": 0,
    "open_calls": 2,
-   "top_funders": [],
+   "top_funders": [
+    "GIZ",
+    "ILO"
+   ],
    "pitch": false,
    "asset": "immigration, work-permit and contracting compliance services"
   },

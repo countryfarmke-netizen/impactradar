@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-16T13:15Z",
+ "updated": "2026-11-17T14:00Z",
  "log": [
   "Google Alert 1: 0 read, 0 new active",
   "Google Alert 2: 0 read, 0 new active",
   "Google Alert 3: 0 read, 0 new active",
   "Google Alert 4: 0 read, 0 new active",
   "Google Alert 5: 0 read, 0 new active",
-  "Google Alert 6: 0 read, 0 new active",
+  "Google Alert 6: 3 read, 0 new active",
   "fundsforNGOs: 64 read, 0 new active",
   "Mastercard Foundation: 37 read, 0 new active",
   "World Bank procurement (Kenya): 100 read, 0 new active"
@@ -843,6 +843,17 @@
  ],
  "signals": [
   {
+   "id": "55110aa9c983",
+   "date": "2026-11-17",
+   "title": "A Sample Grant Proposal on \u201cExpanding Digital Literacy and Technology Access in ...",
+   "link": "https://www.fundsforngos.org/all-proposals/a-sample-grant-proposal-on-expanding-digital-literacy-and-technology-access-in-underserved-communities-2/",
+   "source": "Google Alert 6",
+   "lanes": [
+    "AI & digital skills"
+   ],
+   "funders": []
+  },
+  {
    "id": "cfcf724cdb78",
    "date": "2026-11-16",
    "title": "EU and ILO support Iraq youth employment agenda through BEIT programme at Baghdad conference with 160 researchers",
@@ -1064,7 +1075,7 @@
  "trends": [
   {
    "lane": "AI & digital skills",
-   "signals_30d": 1,
+   "signals_30d": 2,
    "signals_prev30d": 0,
    "open_calls": 11,
    "top_funders": [],

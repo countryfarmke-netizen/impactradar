@@ -1,15 +1,15 @@
 {
- "updated": "2026-11-17T14:00Z",
+ "updated": "2026-11-18T13:35Z",
  "log": [
-  "Google Alert 1: 0 read, 0 new active",
+  "Google Alert 1: 1 read, 1 new active",
   "Google Alert 2: 0 read, 0 new active",
   "Google Alert 3: 0 read, 0 new active",
-  "Google Alert 4: 0 read, 0 new active",
+  "Google Alert 4: 2 read, 0 new active",
   "Google Alert 5: 0 read, 0 new active",
-  "Google Alert 6: 3 read, 0 new active",
+  "Google Alert 6: 1 read, 0 new active",
   "fundsforNGOs: 64 read, 0 new active",
-  "Mastercard Foundation: 37 read, 0 new active",
-  "World Bank procurement (Kenya): 100 read, 0 new active"
+  "Mastercard Foundation: 38 read, 0 new active",
+  "World Bank procurement (Kenya): 100 read, 1 new active"
  ],
  "items": [
   {
@@ -434,6 +434,25 @@
    "funders": []
   },
   {
+   "id": "2a4f5e2dd5de",
+   "v": 2,
+   "first_seen": "2026-11-18",
+   "title": "EACC Secures Court Order Blocking Marsabit County&#39;s Ksh 20M Tender Payment",
+   "link": "https://www.kenyans.co.ke/news/129440-eacc-secures-court-order-blocking-marsabit-countys-ksh-20m-tender-payment",
+   "source": "Google Alert 1",
+   "score": 7,
+   "deadline": "",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [
+    "Blue-collar & vocational",
+    "Agri-food jobs"
+   ],
+   "funders": [
+    "World Bank"
+   ]
+  },
+  {
    "id": "a4deb3b16243",
    "v": 2,
    "first_seen": "2026-10-22",
@@ -555,6 +574,22 @@
    "first_seen": "2026-11-14",
    "title": "Amhara Bureau of Agriculture procurement of improved wheat seeds",
    "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00481323",
+   "source": "World Bank procurement (Kenya)",
+   "score": 6,
+   "deadline": "",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [
+    "Agri-food jobs"
+   ],
+   "funders": []
+  },
+  {
+   "id": "679a0ddbe771",
+   "v": 2,
+   "first_seen": "2026-11-18",
+   "title": "Supply Delivery and Installation of ICT servers and server room equipment for digital agriculture unit - data center",
+   "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00482155",
    "source": "World Bank procurement (Kenya)",
    "score": 6,
    "deadline": "",
@@ -843,6 +878,19 @@
  ],
  "signals": [
   {
+   "id": "5f38f06e09f8",
+   "date": "2026-11-18",
+   "title": "IFC announces more than $500 million in projects at AFIS 2026 to deepen finance, support MSMEs and agribusiness across Africa",
+   "link": "https://news.fundsforngos.org/2026/11/18/ifc-announces-more-than-500-million-afis-2026-projects-africa/",
+   "source": "fundsforNGOs",
+   "lanes": [
+    "Agri-food jobs"
+   ],
+   "funders": [
+    "IFC"
+   ]
+  },
+  {
    "id": "55110aa9c983",
    "date": "2026-11-17",
    "title": "A Sample Grant Proposal on \u201cExpanding Digital Literacy and Technology Access in ...",
@@ -1095,17 +1143,18 @@
    "lane": "Blue-collar & vocational",
    "signals_30d": 2,
    "signals_prev30d": 0,
-   "open_calls": 10,
+   "open_calls": 11,
    "top_funders": [],
    "pitch": false,
    "asset": "bulk recruitment and employee outsourcing across manufacturing, construction and agriculture"
   },
   {
    "lane": "Agri-food jobs",
-   "signals_30d": 11,
+   "signals_30d": 12,
    "signals_prev30d": 0,
-   "open_calls": 22,
+   "open_calls": 24,
    "top_funders": [
+    "IFC",
     "African Development Bank"
    ],
    "pitch": false,

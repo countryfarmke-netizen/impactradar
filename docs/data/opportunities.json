@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-18T13:35Z",
+ "updated": "2026-11-19T14:01Z",
  "log": [
-  "Google Alert 1: 1 read, 1 new active",
-  "Google Alert 2: 0 read, 0 new active",
+  "Google Alert 1: 0 read, 0 new active",
+  "Google Alert 2: 3 read, 0 new active",
   "Google Alert 3: 0 read, 0 new active",
-  "Google Alert 4: 2 read, 0 new active",
+  "Google Alert 4: 0 read, 0 new active",
   "Google Alert 5: 0 read, 0 new active",
   "Google Alert 6: 1 read, 0 new active",
   "fundsforNGOs: 64 read, 0 new active",
@@ -12,70 +12,6 @@
   "World Bank procurement (Kenya): 100 read, 1 new active"
  ],
  "items": [
-  {
-   "id": "7b6fb4f98a9f",
-   "v": 2,
-   "first_seen": "2026-11-08",
-   "title": "Recruitment of Youth Employment Specialist for Debre Brehan City",
-   "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00480016",
-   "source": "World Bank procurement (Kenya)",
-   "score": 8,
-   "deadline": "2026-11-18",
-   "contacts": [],
-   "kind": "RFP",
-   "lanes": [
-    "Graduate & youth employability"
-   ],
-   "funders": []
-  },
-  {
-   "id": "680094c1f93b",
-   "v": 2,
-   "first_seen": "2026-11-08",
-   "title": "Recruitment of Youth Employment Specialist for Debre Tabor City",
-   "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00480020",
-   "source": "World Bank procurement (Kenya)",
-   "score": 8,
-   "deadline": "2026-11-18",
-   "contacts": [],
-   "kind": "RFP",
-   "lanes": [
-    "Graduate & youth employability"
-   ],
-   "funders": []
-  },
-  {
-   "id": "576004b9c7b7",
-   "v": 2,
-   "first_seen": "2026-11-08",
-   "title": "Recruitment of Youth Employment Specialist for Debre Markos City",
-   "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00480022",
-   "source": "World Bank procurement (Kenya)",
-   "score": 8,
-   "deadline": "2026-11-18",
-   "contacts": [],
-   "kind": "RFP",
-   "lanes": [
-    "Graduate & youth employability"
-   ],
-   "funders": []
-  },
-  {
-   "id": "e760484b334d",
-   "v": 2,
-   "first_seen": "2026-11-08",
-   "title": "Recruitment of Youth Employment Specialist for Dessie City",
-   "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00480018",
-   "source": "World Bank procurement (Kenya)",
-   "score": 8,
-   "deadline": "2026-11-18",
-   "contacts": [],
-   "kind": "RFP",
-   "lanes": [
-    "Graduate & youth employability"
-   ],
-   "funders": []
-  },
   {
    "id": "3f93864d2e0d",
    "v": 2,
@@ -172,6 +108,22 @@
    "kind": "RFP",
    "lanes": [
     "AI & digital skills"
+   ],
+   "funders": []
+  },
+  {
+   "id": "14a1575296cd",
+   "v": 2,
+   "first_seen": "2026-11-19",
+   "title": "Construction of Dhobley District Livestock and Agriculture markets, Jubaland State of Somalia",
+   "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00482404",
+   "source": "World Bank procurement (Kenya)",
+   "score": 6,
+   "deadline": "2026-12-20",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [
+    "Agri-food jobs"
    ],
    "funders": []
   },
@@ -1152,7 +1104,7 @@
    "lane": "Agri-food jobs",
    "signals_30d": 12,
    "signals_prev30d": 0,
-   "open_calls": 24,
+   "open_calls": 25,
    "top_funders": [
     "IFC",
     "African Development Bank"
@@ -1164,7 +1116,7 @@
    "lane": "Graduate & youth employability",
    "signals_30d": 4,
    "signals_prev30d": 0,
-   "open_calls": 12,
+   "open_calls": 8,
    "top_funders": [
     "ILO",
     "African Development Bank"

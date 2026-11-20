@@ -1,15 +1,16 @@
 {
- "updated": "2026-11-19T14:01Z",
+ "updated": "2026-11-20T13:45Z",
  "log": [
   "Google Alert 1: 0 read, 0 new active",
-  "Google Alert 2: 3 read, 0 new active",
-  "Google Alert 3: 0 read, 0 new active",
+  "Google Alert 2: 0 read, 0 new active",
+  "Google Alert 3: 12 read, 9 new active",
   "Google Alert 4: 0 read, 0 new active",
   "Google Alert 5: 0 read, 0 new active",
-  "Google Alert 6: 1 read, 0 new active",
+  "Google Alert 6: 6 read, 6 new active",
   "fundsforNGOs: 64 read, 0 new active",
   "Mastercard Foundation: 38 read, 0 new active",
-  "World Bank procurement (Kenya): 100 read, 1 new active"
+  "World Bank procurement (Kenya): 100 read, 3 new active",
+  "Sheet: {\"added\":7}"
  ],
  "items": [
   {
@@ -112,6 +113,26 @@
    "funders": []
   },
   {
+   "id": "0946c268fb50",
+   "v": 2,
+   "first_seen": "2026-11-20",
+   "title": "EEAS Call for Expression of Interest for the recruitment of one Temporary Agent under ...",
+   "link": "https://www.eeas.europa.eu/eeas/eeas-call-expression-interest-recruitment-one-temporary-agent-under-article-2b-conditions-employment-21_en",
+   "source": "Google Alert 3",
+   "score": 5,
+   "deadline": "2026-11-27",
+   "contacts": [
+    "cecilia.iavorschi@eeas.europa.eu",
+    "ast-staff@eeas.europa.eu",
+    "eeas-hq-applications-ast@eeas.europa.eu"
+   ],
+   "kind": "RFP",
+   "lanes": [],
+   "funders": [
+    "European Union"
+   ]
+  },
+  {
    "id": "14a1575296cd",
    "v": 2,
    "first_seen": "2026-11-19",
@@ -185,6 +206,109 @@
    ]
   },
   {
+   "id": "03c25d922a06",
+   "v": 2,
+   "first_seen": "2026-11-20",
+   "title": "Apply Now: Fellowship for Advancing Science Journalism in Africa and the Middle East",
+   "link": "https://www2.fundsforngos.org/science/fellowship-for-advancing-science-journalism-in-africa-and-the-middle-east/",
+   "source": "Google Alert 6",
+   "score": 11,
+   "deadline": "",
+   "contacts": [],
+   "kind": "Grant",
+   "lanes": [
+    "AI & digital skills",
+    "Graduate & youth employability"
+   ],
+   "funders": []
+  },
+  {
+   "id": "8f1cb2806de2",
+   "v": 2,
+   "first_seen": "2026-11-20",
+   "title": "Towards Health Equality: Transdisciplinary Research on Women&#39;s Health - fundsforNGOs",
+   "link": "https://www2.fundsforngos.org/research-2/towards-health-equality-transdisciplinary-research-on-womens-health/",
+   "source": "Google Alert 6",
+   "score": 11,
+   "deadline": "",
+   "contacts": [],
+   "kind": "Grant",
+   "lanes": [
+    "AI & digital skills",
+    "Graduate & youth employability"
+   ],
+   "funders": []
+  },
+  {
+   "id": "ab0b3c1c5953",
+   "v": 2,
+   "first_seen": "2026-11-20",
+   "title": "Request for Proposals: Incubation for High-Impact Organizations - fundsforNGOs",
+   "link": "https://www2.fundsforngos.org/individuals/request-for-proposals-incubation-for-high-impact-organizations/",
+   "source": "Google Alert 6",
+   "score": 11,
+   "deadline": "",
+   "contacts": [],
+   "kind": "Grant",
+   "lanes": [
+    "AI & digital skills",
+    "Graduate & youth employability"
+   ],
+   "funders": []
+  },
+  {
+   "id": "1dc394e23899",
+   "v": 2,
+   "first_seen": "2026-11-20",
+   "title": "RFAs: Large Awards Grant for Greenwich Community Health Projects (United Kingdom)",
+   "link": "https://www2.fundsforngos.org/health-2/rfas-large-awards-grant-for-greenwich-community-health-projects-united-kingdom/",
+   "source": "Google Alert 6",
+   "score": 10,
+   "deadline": "",
+   "contacts": [],
+   "kind": "Grant",
+   "lanes": [
+    "AI & digital skills",
+    "Graduate & youth employability"
+   ],
+   "funders": []
+  },
+  {
+   "id": "add4a20bc707",
+   "v": 2,
+   "first_seen": "2026-11-20",
+   "title": "Call for Proposals : People-Centered, Integrated TB and Hepatitis C Care for Greater Equity",
+   "link": "https://www2.fundsforngos.org/innovation/call-for-proposals-people-centered-integrated-tb-and-hepatitis-c-care-for-greater-equity/",
+   "source": "Google Alert 6",
+   "score": 10,
+   "deadline": "",
+   "contacts": [],
+   "kind": "Grant",
+   "lanes": [
+    "AI & digital skills",
+    "Graduate & youth employability"
+   ],
+   "funders": []
+  },
+  {
+   "id": "1d2bd3fcea56",
+   "v": 2,
+   "first_seen": "2026-11-20",
+   "title": "Call for Proposals : Supporting Farmers&#39; Organizations to Deliver Rapid Crisis ... - fundsforNGOs",
+   "link": "https://www2.fundsforngos.org/environment-2/call-for-proposals-supporting-farmers-organizations-to-deliver-rapid/",
+   "source": "Google Alert 6",
+   "score": 10,
+   "deadline": "",
+   "contacts": [],
+   "kind": "Grant",
+   "lanes": [
+    "AI & digital skills",
+    "Agri-food jobs",
+    "Graduate & youth employability"
+   ],
+   "funders": []
+  },
+  {
    "id": "c2e9e3c7d9f7",
    "v": 2,
    "first_seen": "2026-11-03",
@@ -237,6 +361,22 @@
    ],
    "funders": [
     "World Bank",
+    "ILO"
+   ]
+  },
+  {
+   "id": "99cdaf230f5c",
+   "v": 2,
+   "first_seen": "2026-11-20",
+   "title": "U.S.-Led Consortium Wins Kenya&#39;s Mrima Hill Mineral Tender - allAfrica.com",
+   "link": "https://allafrica.com/stories/202611190219.html",
+   "source": "Google Alert 3",
+   "score": 8,
+   "deadline": "",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [],
+   "funders": [
     "ILO"
    ]
   },
@@ -405,6 +545,101 @@
    ]
   },
   {
+   "id": "87d14ae6fa4c",
+   "v": 2,
+   "first_seen": "2026-11-20",
+   "title": "Joho Announces Winners of Kenya&#39;s Major Mining Tenders, Reveals Three Successful Bids",
+   "link": "https://nairobiwire.com/2026/11/mrima-hill-mining-project-us-consortium-chinese-firms.html",
+   "source": "Google Alert 3",
+   "score": 7,
+   "deadline": "",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [],
+   "funders": []
+  },
+  {
+   "id": "fd3b6a11a88d",
+   "v": 2,
+   "first_seen": "2026-11-20",
+   "title": "Joho names bidders for three mineral projects; two tenders fail | 5050 Markets Kenya",
+   "link": "https://5050markets.com/ke/news/joho-mineral-project-bidders",
+   "source": "Google Alert 3",
+   "score": 7,
+   "deadline": "",
+   "contacts": [
+    "support@5050.ke"
+   ],
+   "kind": "RFP",
+   "lanes": [],
+   "funders": [
+    "ILO"
+   ]
+  },
+  {
+   "id": "98aa034174d7",
+   "v": 2,
+   "first_seen": "2026-11-20",
+   "title": "Kenya awards three strategic mineral projects to investors ... - Facebook",
+   "link": "https://www.facebook.com/kenyanewsagency/posts/%F0%9D%97%9E%F0%9D%97%B2%F0%9D%97%BB%F0%9D%98%86%F0%9D%97%AE-%F0%9D%97%AE%F0%9D%98%84%F0%9D%97%AE%F0%9D%97%BF%F0%9D%97%B1%F0%9D%98%80-%F0%9D%98%81%F0%9D%97%B5%F0%9D%97%BF%F0%9D%97%B2%F0%9D%97%B2-%F0%9D%98%80%F0%9D%98%81%F0%9D%97%BF%F0%9D%97%AE%F0%9D%98%81%F0%9D%97%B2%F0%9D%97%B4%F0%9D%97%B6%F0%9D%97%B0-%F0%9D%97%BA%F0%9D%97%B6%F0%9D%97%BB%F0%9D%97%B2%F0%9D%97%BF%F0%9D%97%AE%F0%9D%97%B9-%F0%9D%97%BD%F0%9D%97%BF%F0%9D%97%BC%F0%9D%97%B7%F0%9D%97%B2%F0%9D%97%B0%F0%9D%98%81%F0%9D%98%80-%F0%9D%98%81%F0%9D%97%BC-%F0%9D%97%B6%F0%9D%97%BB%F0%9D%98%83%F0%9D%97%B2%F0%9D%98%80%F0%9D%98%81%F0%9D%97%BC%F0%9D%97%BF%F0%9D%98%80kenya-has-selected-inv/1452952140353761/",
+   "source": "Google Alert 3",
+   "score": 7,
+   "deadline": "",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [],
+   "funders": []
+  },
+  {
+   "id": "53a719eea673",
+   "v": 2,
+   "first_seen": "2026-11-20",
+   "title": "Kenya selects companies to develop Mrima Hill, Samburu and Tharaka Nithi mineral deposits",
+   "link": "https://www.pulse.co.ke/story/kenya-selects-companies-to-develop-mrima-hill-samburu-and-tharaka-nithi-mineral-deposits-2026111910132478211",
+   "source": "Google Alert 3",
+   "score": 7,
+   "deadline": "",
+   "contacts": [
+    "info@pulse.co.ke"
+   ],
+   "kind": "RFP",
+   "lanes": [],
+   "funders": []
+  },
+  {
+   "id": "ad5efd754e32",
+   "v": 2,
+   "first_seen": "2026-11-20",
+   "title": "US Beats China In Fight For Kenya&#39;s Mrima Hill As Govt Finally Awards Tenders",
+   "link": "https://thekenyatimes.com/latest-kenya-times-news/joho-awards-strategic-mineral-projects-to-american-and-chinese-investors/",
+   "source": "Google Alert 3",
+   "score": 7,
+   "deadline": "",
+   "contacts": [
+    "customercare@thekenyatimes.com",
+    "wiltord.otieno@thekenyatimes.com"
+   ],
+   "kind": "RFP",
+   "lanes": [],
+   "funders": []
+  },
+  {
+   "id": "5a9a258947b2",
+   "v": 2,
+   "first_seen": "2026-11-20",
+   "title": "Gov&#39;t Names Companies Set to Mine Rare Earth Minerals, Copper in Kenya",
+   "link": "https://nairobileo.co.ke/news/article/31567/govt-names-companies-set-to-mine-rare-earth-minerals-copper-in-kenya",
+   "source": "Google Alert 3",
+   "score": 7,
+   "deadline": "",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [],
+   "funders": [
+    "Safaricom"
+   ]
+  },
+  {
    "id": "a4deb3b16243",
    "v": 2,
    "first_seen": "2026-10-22",
@@ -542,6 +777,52 @@
    "first_seen": "2026-11-18",
    "title": "Supply Delivery and Installation of ICT servers and server room equipment for digital agriculture unit - data center",
    "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00482155",
+   "source": "World Bank procurement (Kenya)",
+   "score": 6,
+   "deadline": "",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [
+    "Agri-food jobs"
+   ],
+   "funders": []
+  },
+  {
+   "id": "6dbf4226e64a",
+   "v": 2,
+   "first_seen": "2026-11-20",
+   "title": "Kenyans demand disclosure of Mrima Hill mining deal, public participation",
+   "link": "https://eastleighvoice.co.ke/news/425946/kenyans-demand-disclosure-of-mrima-hill-mining-deal-public-participation?amp=1",
+   "source": "Google Alert 3",
+   "score": 6,
+   "deadline": "",
+   "contacts": [],
+   "kind": "EOI",
+   "lanes": [],
+   "funders": []
+  },
+  {
+   "id": "c66df14e20f0",
+   "v": 2,
+   "first_seen": "2026-11-20",
+   "title": "Conducting in the specialized international training and study program entitled \u201cSustainable Management and Efficiency in the Agriculture and Water Sector\u201d (\u201cAgroWater Management\u201d)",
+   "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00482697",
+   "source": "World Bank procurement (Kenya)",
+   "score": 6,
+   "deadline": "",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [
+    "Agri-food jobs"
+   ],
+   "funders": []
+  },
+  {
+   "id": "da34eeb1f792",
+   "v": 2,
+   "first_seen": "2026-11-20",
+   "title": "Engagement of a reputed Govt. Agency named as \u2018National Seed Corporation Ltd.\u2019 for supply of different types of Agriculture Seeds for Rabi 2026-27 Program under WBADMI Project Phase-II under Single So",
+   "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00482587",
    "source": "World Bank procurement (Kenya)",
    "score": 6,
    "deadline": "",
@@ -826,6 +1107,22 @@
     "AI & digital skills"
    ],
    "funders": []
+  },
+  {
+   "id": "93fc4f5c7cda",
+   "v": 2,
+   "first_seen": "2026-11-20",
+   "title": "PROCUREMENT AND DISTRIBUTION OF 10KVA SOLAR POWER TO NEWLY CONSTRUCTED 26 SECONDARY SCHOOLS (13 JUNIOR AND 13 SENIOR SECONDARY SCHOOLS AND FOR ADDITIONAL 55 SENIOR SECONDARY SCHOOLS FOR DIGITAL SKILLS",
+   "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00482701",
+   "source": "World Bank procurement (Kenya)",
+   "score": 4,
+   "deadline": "",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [
+    "AI & digital skills"
+   ],
+   "funders": []
   }
  ],
  "signals": [
@@ -1077,7 +1374,7 @@
    "lane": "AI & digital skills",
    "signals_30d": 2,
    "signals_prev30d": 0,
-   "open_calls": 11,
+   "open_calls": 18,
    "top_funders": [],
    "pitch": false,
    "asset": "Bridge's recruitment and assessment data, StrikeAge and the HR Excellence Academy"
@@ -1104,7 +1401,7 @@
    "lane": "Agri-food jobs",
    "signals_30d": 12,
    "signals_prev30d": 0,
-   "open_calls": 25,
+   "open_calls": 28,
    "top_funders": [
     "IFC",
     "African Development Bank"
@@ -1116,7 +1413,7 @@
    "lane": "Graduate & youth employability",
    "signals_30d": 4,
    "signals_prev30d": 0,
-   "open_calls": 8,
+   "open_calls": 14,
    "top_funders": [
     "ILO",
     "African Development Bank"

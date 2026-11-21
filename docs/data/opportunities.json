@@ -1,34 +1,18 @@
 {
- "updated": "2026-11-20T13:45Z",
+ "updated": "2026-11-21T13:10Z",
  "log": [
   "Google Alert 1: 0 read, 0 new active",
-  "Google Alert 2: 0 read, 0 new active",
-  "Google Alert 3: 12 read, 9 new active",
+  "Google Alert 2: 5 read, 2 new active",
+  "Google Alert 3: 6 read, 0 new active",
   "Google Alert 4: 0 read, 0 new active",
   "Google Alert 5: 0 read, 0 new active",
-  "Google Alert 6: 6 read, 6 new active",
-  "fundsforNGOs: 64 read, 0 new active",
+  "Google Alert 6: 6 read, 4 new active",
+  "fundsforNGOs: FAILED (HTTPError: HTTP Error 403: Forbidden)",
   "Mastercard Foundation: 38 read, 0 new active",
-  "World Bank procurement (Kenya): 100 read, 3 new active",
-  "Sheet: {\"added\":7}"
+  "World Bank procurement (Kenya): 100 read, 1 new active",
+  "Sheet: {\"added\":3}"
  ],
  "items": [
-  {
-   "id": "3f93864d2e0d",
-   "v": 2,
-   "first_seen": "2026-10-25",
-   "title": "Procurement and distribution of resource materials and vocational skills kit",
-   "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00477064",
-   "source": "World Bank procurement (Kenya)",
-   "score": 4,
-   "deadline": "2026-11-20",
-   "contacts": [],
-   "kind": "RFP",
-   "lanes": [
-    "Blue-collar & vocational"
-   ],
-   "funders": []
-  },
   {
    "id": "ef2808ebf4b7",
    "v": 2,
@@ -257,6 +241,40 @@
    "funders": []
   },
   {
+   "id": "ca47c1193578",
+   "v": 2,
+   "first_seen": "2026-11-21",
+   "title": "Broad Pragmatic Studies PCORI Funding Announcement (US) - fundsforNGOs",
+   "link": "https://www2.fundsforngos.org/individuals/broad-pragmatic-studies-pcori-funding-announcement-us/",
+   "source": "Google Alert 6",
+   "score": 11,
+   "deadline": "",
+   "contacts": [],
+   "kind": "Grant",
+   "lanes": [
+    "AI & digital skills",
+    "Graduate & youth employability"
+   ],
+   "funders": []
+  },
+  {
+   "id": "9037e852296e",
+   "v": 2,
+   "first_seen": "2026-11-21",
+   "title": "Call for Applications: Social Economy Incentive Fund (United Kingdom) - fundsforNGOs",
+   "link": "https://www2.fundsforngos.org/accounts-and-finance/call-for-applications-social-economy-incentive-fund-united-kingdom/",
+   "source": "Google Alert 6",
+   "score": 11,
+   "deadline": "",
+   "contacts": [],
+   "kind": "Grant",
+   "lanes": [
+    "AI & digital skills",
+    "Graduate & youth employability"
+   ],
+   "funders": []
+  },
+  {
    "id": "1dc394e23899",
    "v": 2,
    "first_seen": "2026-11-20",
@@ -304,6 +322,23 @@
    "lanes": [
     "AI & digital skills",
     "Agri-food jobs",
+    "Graduate & youth employability"
+   ],
+   "funders": []
+  },
+  {
+   "id": "30cb22b80837",
+   "v": 2,
+   "first_seen": "2026-11-21",
+   "title": "Applications Open for Ready to Launch Fund (Australia) - fundsforNGOs",
+   "link": "https://www2.fundsforngos.org/domestic-violence/applications-open-for-ready-to-launch-fund-australia/",
+   "source": "Google Alert 6",
+   "score": 10,
+   "deadline": "",
+   "contacts": [],
+   "kind": "Grant",
+   "lanes": [
+    "AI & digital skills",
     "Graduate & youth employability"
    ],
    "funders": []
@@ -834,6 +869,22 @@
    "funders": []
   },
   {
+   "id": "8733f3fbee38",
+   "v": 2,
+   "first_seen": "2026-11-21",
+   "title": "Amhara Burue of Agriculture procurement of check peas and Masho",
+   "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00482875",
+   "source": "World Bank procurement (Kenya)",
+   "score": 6,
+   "deadline": "",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [
+    "Agri-food jobs"
+   ],
+   "funders": []
+  },
+  {
    "id": "53395a58c795",
    "v": 2,
    "first_seen": "2026-10-29",
@@ -888,6 +939,34 @@
    "lanes": [
     "Agri-food jobs"
    ],
+   "funders": []
+  },
+  {
+   "id": "c70153ecfbb8",
+   "v": 2,
+   "first_seen": "2026-11-21",
+   "title": "Call for Proposals : Women&#39;s Economic Empowerment through Small Business ... - fundsforNGOs",
+   "link": "https://www2.fundsforngos.org/community-development-2/call-for-proposals-womens-economic-empowerment-through-small-business-development-albania/",
+   "source": "Google Alert 2",
+   "score": 5,
+   "deadline": "",
+   "contacts": [],
+   "kind": "Grant",
+   "lanes": [],
+   "funders": []
+  },
+  {
+   "id": "07b623304b61",
+   "v": 2,
+   "first_seen": "2026-11-21",
+   "title": "New Pathways for South Africa: Funding for People, Businesses and Communities",
+   "link": "https://www2.fundsforngos.org/listing/new-pathways-for-south-africa-funding-for-people-businesses-and-communities/",
+   "source": "Google Alert 2",
+   "score": 5,
+   "deadline": "",
+   "contacts": [],
+   "kind": "Grant",
+   "lanes": [],
    "funders": []
   },
   {
@@ -1119,6 +1198,22 @@
    "deadline": "",
    "contacts": [],
    "kind": "RFP",
+   "lanes": [
+    "AI & digital skills"
+   ],
+   "funders": []
+  },
+  {
+   "id": "4ce57a892bb8",
+   "v": 2,
+   "first_seen": "2026-11-21",
+   "title": "Call for Proposals : Joint Research and Innovative Projects on Artificial Intelligence (Malta)",
+   "link": "https://www2.fundsforngos.org/innovation/call-for-proposals-joint-research-and-innovative-projects-on-artificial-intelligence-malta/",
+   "source": "Google Alert 6",
+   "score": 4,
+   "deadline": "",
+   "contacts": [],
+   "kind": "Grant",
    "lanes": [
     "AI & digital skills"
    ],
@@ -1372,9 +1467,9 @@
  "trends": [
   {
    "lane": "AI & digital skills",
-   "signals_30d": 2,
-   "signals_prev30d": 0,
-   "open_calls": 18,
+   "signals_30d": 1,
+   "signals_prev30d": 1,
+   "open_calls": 22,
    "top_funders": [],
    "pitch": false,
    "asset": "Bridge's recruitment and assessment data, StrikeAge and the HR Excellence Academy"
@@ -1392,16 +1487,16 @@
    "lane": "Blue-collar & vocational",
    "signals_30d": 2,
    "signals_prev30d": 0,
-   "open_calls": 11,
+   "open_calls": 10,
    "top_funders": [],
    "pitch": false,
    "asset": "bulk recruitment and employee outsourcing across manufacturing, construction and agriculture"
   },
   {
    "lane": "Agri-food jobs",
-   "signals_30d": 12,
-   "signals_prev30d": 0,
-   "open_calls": 28,
+   "signals_30d": 6,
+   "signals_prev30d": 6,
+   "open_calls": 29,
    "top_funders": [
     "IFC",
     "African Development Bank"
@@ -1411,9 +1506,9 @@
   },
   {
    "lane": "Graduate & youth employability",
-   "signals_30d": 4,
-   "signals_prev30d": 0,
-   "open_calls": 14,
+   "signals_30d": 3,
+   "signals_prev30d": 1,
+   "open_calls": 17,
    "top_funders": [
     "ILO",
     "African Development Bank"

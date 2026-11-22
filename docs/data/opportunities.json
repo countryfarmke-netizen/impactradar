@@ -1,16 +1,15 @@
 {
- "updated": "2026-11-21T13:10Z",
+ "updated": "2026-11-22T12:56Z",
  "log": [
   "Google Alert 1: 0 read, 0 new active",
-  "Google Alert 2: 5 read, 2 new active",
-  "Google Alert 3: 6 read, 0 new active",
+  "Google Alert 2: 2 read, 1 new active",
+  "Google Alert 3: 0 read, 0 new active",
   "Google Alert 4: 0 read, 0 new active",
   "Google Alert 5: 0 read, 0 new active",
-  "Google Alert 6: 6 read, 4 new active",
-  "fundsforNGOs: FAILED (HTTPError: HTTP Error 403: Forbidden)",
+  "Google Alert 6: 0 read, 0 new active",
+  "fundsforNGOs: 64 read, 0 new active",
   "Mastercard Foundation: 38 read, 0 new active",
-  "World Bank procurement (Kenya): 100 read, 1 new active",
-  "Sheet: {\"added\":3}"
+  "World Bank procurement (Kenya): 100 read, 0 new active"
  ],
  "items": [
   {
@@ -961,6 +960,20 @@
    "first_seen": "2026-11-21",
    "title": "New Pathways for South Africa: Funding for People, Businesses and Communities",
    "link": "https://www2.fundsforngos.org/listing/new-pathways-for-south-africa-funding-for-people-businesses-and-communities/",
+   "source": "Google Alert 2",
+   "score": 5,
+   "deadline": "",
+   "contacts": [],
+   "kind": "Grant",
+   "lanes": [],
+   "funders": []
+  },
+  {
+   "id": "9f3fae5dad4d",
+   "v": 2,
+   "first_seen": "2026-11-22",
+   "title": "Call for Proposals : Women&#39;s Economic Empowerment through Small Business ... - fundsforNGOs",
+   "link": "https://www.fundsforngos.org/how-to-apply/call-for-proposals-womens-economic-empowerment-through-small-business-development-albania/",
    "source": "Google Alert 2",
    "score": 5,
    "deadline": "",

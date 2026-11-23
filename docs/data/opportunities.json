@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-22T12:56Z",
+ "updated": "2026-11-23T15:33Z",
  "log": [
   "Google Alert 1: 0 read, 0 new active",
-  "Google Alert 2: 2 read, 1 new active",
+  "Google Alert 2: 0 read, 0 new active",
   "Google Alert 3: 0 read, 0 new active",
   "Google Alert 4: 0 read, 0 new active",
   "Google Alert 5: 0 read, 0 new active",
@@ -1235,6 +1235,19 @@
  ],
  "signals": [
   {
+   "id": "f6d030463552",
+   "date": "2026-11-23",
+   "title": "UAE Artificial Intelligence Office, UNDP and Women in AI launch Initiative to Empower 100,000 Arab Women in Artificial Intelligence",
+   "link": "https://news.fundsforngos.org/2026/11/23/uae-undp-women-in-ai-empower-100000-arab-women-in-ai/",
+   "source": "fundsforNGOs",
+   "lanes": [
+    "AI & digital skills"
+   ],
+   "funders": [
+    "UNDP"
+   ]
+  },
+  {
    "id": "5f38f06e09f8",
    "date": "2026-11-18",
    "title": "IFC announces more than $500 million in projects at AFIS 2026 to deepen finance, support MSMEs and agribusiness across Africa",
@@ -1480,10 +1493,12 @@
  "trends": [
   {
    "lane": "AI & digital skills",
-   "signals_30d": 1,
+   "signals_30d": 2,
    "signals_prev30d": 1,
    "open_calls": 22,
-   "top_funders": [],
+   "top_funders": [
+    "UNDP"
+   ],
    "pitch": false,
    "asset": "Bridge's recruitment and assessment data, StrikeAge and the HR Excellence Academy"
   },

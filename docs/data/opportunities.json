@@ -1,34 +1,17 @@
 {
- "updated": "2026-11-24T15:26Z",
+ "updated": "2026-11-25T15:12Z",
  "log": [
-  "Google Alert 1: 1 read, 1 new active",
-  "Google Alert 2: 0 read, 0 new active",
-  "Google Alert 3: 1 read, 0 new active",
+  "Google Alert 1: 0 read, 0 new active",
+  "Google Alert 2: 1 read, 1 new active",
+  "Google Alert 3: 0 read, 0 new active",
   "Google Alert 4: 0 read, 0 new active",
   "Google Alert 5: 0 read, 0 new active",
   "Google Alert 6: 0 read, 0 new active",
   "fundsforNGOs: 64 read, 0 new active",
   "Mastercard Foundation: 38 read, 0 new active",
-  "World Bank procurement (Kenya): 100 read, 0 new active",
-  "Sheet: {\"added\":1}"
+  "World Bank procurement (Kenya): 100 read, 0 new active"
  ],
  "items": [
-  {
-   "id": "0abf48a7d6f8",
-   "v": 2,
-   "first_seen": "2026-10-28",
-   "title": "Procurement and installation of AI Equipment for Newly Constructed AI Centre in College of Agriculture Bauchi, Bauchi State.",
-   "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00477367",
-   "source": "World Bank procurement (Kenya)",
-   "score": 6,
-   "deadline": "2026-11-24",
-   "contacts": [],
-   "kind": "RFP",
-   "lanes": [
-    "Agri-food jobs"
-   ],
-   "funders": []
-  },
   {
    "id": "fab6d07f6eab",
    "v": 2,
@@ -860,6 +843,20 @@
    "funders": []
   },
   {
+   "id": "3dfdfee1176b",
+   "v": 2,
+   "first_seen": "2026-11-25",
+   "title": "Call for Experts 2026: Become an Evaluator of Project Proposals - EUnewsletter.eu",
+   "link": "https://eunewsletter.eu/call-for-experts-2026-become-an-evaluator-of-project-proposals/",
+   "source": "Google Alert 2",
+   "score": 6,
+   "deadline": "",
+   "contacts": [],
+   "kind": "Grant",
+   "lanes": [],
+   "funders": []
+  },
+  {
    "id": "53395a58c795",
    "v": 2,
    "first_seen": "2026-10-29",
@@ -1513,7 +1510,7 @@
    "lane": "Agri-food jobs",
    "signals_30d": 6,
    "signals_prev30d": 6,
-   "open_calls": 29,
+   "open_calls": 28,
    "top_funders": [
     "IFC",
     "African Development Bank"

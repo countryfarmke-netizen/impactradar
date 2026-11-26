@@ -1,33 +1,18 @@
 {
- "updated": "2026-11-25T15:12Z",
+ "updated": "2026-11-26T14:37Z",
  "log": [
-  "Google Alert 1: 0 read, 0 new active",
-  "Google Alert 2: 1 read, 1 new active",
-  "Google Alert 3: 0 read, 0 new active",
-  "Google Alert 4: 0 read, 0 new active",
+  "Google Alert 1: 2 read, 0 new active",
+  "Google Alert 2: 20 read, 10 new active",
+  "Google Alert 3: 1 read, 0 new active",
+  "Google Alert 4: 11 read, 0 new active",
   "Google Alert 5: 0 read, 0 new active",
-  "Google Alert 6: 0 read, 0 new active",
+  "Google Alert 6: 3 read, 1 new active",
   "fundsforNGOs: 64 read, 0 new active",
   "Mastercard Foundation: 38 read, 0 new active",
-  "World Bank procurement (Kenya): 100 read, 0 new active"
+  "World Bank procurement (Kenya): 100 read, 3 new active",
+  "Sheet: {\"added\":8}"
  ],
  "items": [
-  {
-   "id": "fab6d07f6eab",
-   "v": 2,
-   "first_seen": "2026-11-11",
-   "title": "Development of Artificial Intelligence Competency Frameworks for Kenya\u2019s Education System",
-   "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00480442",
-   "source": "World Bank procurement (Kenya)",
-   "score": 7,
-   "deadline": "2026-11-25",
-   "contacts": [],
-   "kind": "RFP",
-   "lanes": [
-    "AI & digital skills"
-   ],
-   "funders": []
-  },
   {
    "id": "0946c268fb50",
    "v": 2,
@@ -47,6 +32,38 @@
    "funders": [
     "European Union"
    ]
+  },
+  {
+   "id": "c59e118e7951",
+   "v": 2,
+   "first_seen": "2026-11-26",
+   "title": "Hiring of Eight Digital Skills Trainers - Trainer 4",
+   "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00483725",
+   "source": "World Bank procurement (Kenya)",
+   "score": 4,
+   "deadline": "2026-12-13",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [
+    "AI & digital skills"
+   ],
+   "funders": []
+  },
+  {
+   "id": "92b9180f6000",
+   "v": 2,
+   "first_seen": "2026-11-26",
+   "title": "Hiring of Eight Digital Skills Trainers - Trainer 7",
+   "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00483731",
+   "source": "World Bank procurement (Kenya)",
+   "score": 4,
+   "deadline": "2026-12-13",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [
+    "AI & digital skills"
+   ],
+   "funders": []
   },
   {
    "id": "14a1575296cd",
@@ -77,6 +94,22 @@
    "kind": "RFP",
    "lanes": [
     "AI & digital skills"
+   ],
+   "funders": []
+  },
+  {
+   "id": "bc47773c8d7d",
+   "v": 2,
+   "first_seen": "2026-11-26",
+   "title": "Equipment Procurement for Department of Agriculture and Rural Affairs (14th Contract 4rd Batch)\uff081.4.2\uff09",
+   "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00482792",
+   "source": "World Bank procurement (Kenya)",
+   "score": 6,
+   "deadline": "2026-12-24",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [
+    "Agri-food jobs"
    ],
    "funders": []
   },
@@ -146,6 +179,42 @@
     "UNDP",
     "Safaricom"
    ]
+  },
+  {
+   "id": "e1f7cce3c7ce",
+   "v": 2,
+   "first_seen": "2026-11-26",
+   "title": "Which Donors Fund Youth Apprenticeships With Kenya&#39;s Jua Kali Artisans? - fundsforNGOs",
+   "link": "https://www2.fundsforngos.org/articles-searching-grants-and-donors/which-donors-fund-youth-apprenticeships-with-kenyas-jua-kali-artisans/",
+   "source": "Google Alert 2",
+   "score": 14,
+   "deadline": "",
+   "contacts": [],
+   "kind": "Grant",
+   "lanes": [
+    "Blue-collar & vocational",
+    "Graduate & youth employability"
+   ],
+   "funders": [
+    "USAID"
+   ]
+  },
+  {
+   "id": "0ffd91c120ec",
+   "v": 2,
+   "first_seen": "2026-11-26",
+   "title": "Which Youth Employment Grants Cover Tools and Transport for Apprentices in Uganda?",
+   "link": "https://www2.fundsforngos.org/articles-searching-grants-and-donors/which-youth-employment-grants-cover-tools-and-transport-for-apprentices-in-uganda/",
+   "source": "Google Alert 2",
+   "score": 12,
+   "deadline": "",
+   "contacts": [],
+   "kind": "Grant",
+   "lanes": [
+    "Blue-collar & vocational",
+    "Graduate & youth employability"
+   ],
+   "funders": []
   },
   {
    "id": "03c25d922a06",
@@ -302,6 +371,76 @@
    "funders": []
   },
   {
+   "id": "b9b0b8289854",
+   "v": 2,
+   "first_seen": "2026-11-26",
+   "title": "Your Pilot Worked in One Ward. What Will a Donor Need to See Before Funding It Countywide?",
+   "link": "https://www2.fundsforngos.org/articles-searching-grants-and-donors/your-pilot-worked-in-one-ward-what-will-a-donor-need-to-see-before-funding-it-countywide/",
+   "source": "Google Alert 2",
+   "score": 10,
+   "deadline": "",
+   "contacts": [],
+   "kind": "Grant",
+   "lanes": [
+    "Agri-food jobs"
+   ],
+   "funders": [
+    "ILO"
+   ]
+  },
+  {
+   "id": "414fad05c5fc",
+   "v": 2,
+   "first_seen": "2026-11-26",
+   "title": "Which Donors Back Nigerian Youth Organisations That Connect Apprentices With Local Employers?",
+   "link": "https://www2.fundsforngos.org/articles-searching-grants-and-donors/which-donors-back-nigerian-youth-organisations-that-connect-apprentices-with-local-employers/",
+   "source": "Google Alert 2",
+   "score": 10,
+   "deadline": "",
+   "contacts": [],
+   "kind": "Grant",
+   "lanes": [
+    "Blue-collar & vocational",
+    "Graduate & youth employability",
+    "Workforce & HR capacity"
+   ],
+   "funders": [
+    "FCDO"
+   ]
+  },
+  {
+   "id": "adf153fabb9a",
+   "v": 2,
+   "first_seen": "2026-11-26",
+   "title": "How to Use Your County&#39;s Integrated Development Plan to Strengthen a Grant Proposal",
+   "link": "https://www2.fundsforngos.org/articles-searching-grants-and-donors/how-to-use-your-countys-integrated-development-plan-to-strengthen-a-grant-proposal/",
+   "source": "Google Alert 2",
+   "score": 10,
+   "deadline": "",
+   "contacts": [],
+   "kind": "Grant",
+   "lanes": [
+    "Agri-food jobs"
+   ],
+   "funders": []
+  },
+  {
+   "id": "fab1c97f6adc",
+   "v": 2,
+   "first_seen": "2026-11-26",
+   "title": "What Do Past Grants From Kenyan Corporate Foundations Reveal About the Projects They Back?",
+   "link": "https://www2.fundsforngos.org/cat/what-do-past-grants-from-kenyan-corporate-foundations-reveal-about-the-projects-they-back/",
+   "source": "Google Alert 2",
+   "score": 10,
+   "deadline": "",
+   "contacts": [],
+   "kind": "Grant",
+   "lanes": [
+    "Graduate & youth employability"
+   ],
+   "funders": []
+  },
+  {
    "id": "c2e9e3c7d9f7",
    "v": 2,
    "first_seen": "2026-11-03",
@@ -372,6 +511,36 @@
    "funders": [
     "ILO"
    ]
+  },
+  {
+   "id": "ac3d675de5fd",
+   "v": 2,
+   "first_seen": "2026-11-26",
+   "title": "Which Grants Help Township Youth Organisations Turn Skills Training Into Paid Work Placements?",
+   "link": "https://www2.fundsforngos.org/articles-searching-grants-and-donors/which-grants-help-township-youth-organisations-turn-skills-training-into-paid-work-placements/",
+   "source": "Google Alert 2",
+   "score": 8,
+   "deadline": "",
+   "contacts": [],
+   "kind": "Grant",
+   "lanes": [],
+   "funders": []
+  },
+  {
+   "id": "df1ae0d3712e",
+   "v": 2,
+   "first_seen": "2026-11-26",
+   "title": "How to Find Donors Already Funding Projects in Your Nigerian State - fundsforNGOs",
+   "link": "https://www2.fundsforngos.org/articles-searching-grants-and-donors/how-to-find-donors-already-funding-projects-in-your-nigerian-state/amp/",
+   "source": "Google Alert 6",
+   "score": 8,
+   "deadline": "",
+   "contacts": [],
+   "kind": "Grant",
+   "lanes": [
+    "AI & digital skills"
+   ],
+   "funders": []
   },
   {
    "id": "3f17b6f01225",
@@ -631,6 +800,20 @@
    "funders": [
     "Safaricom"
    ]
+  },
+  {
+   "id": "bf98c39d5dac",
+   "v": 2,
+   "first_seen": "2026-11-26",
+   "title": "Who Funds the Training and Travel Behind Community Health Promoters&#39; Home Visits in Kenya ?",
+   "link": "https://www2.fundsforngos.org/articles-searching-grants-and-donors/who-funds-the-training-and-travel-behind-community-health-promoters-home-visits-in-kenya/",
+   "source": "Google Alert 2",
+   "score": 7,
+   "deadline": "",
+   "contacts": [],
+   "kind": "Grant",
+   "lanes": [],
+   "funders": []
   },
   {
    "id": "a4deb3b16243",
@@ -956,6 +1139,38 @@
    "funders": []
   },
   {
+   "id": "08f24b09d1b6",
+   "v": 2,
+   "first_seen": "2026-11-26",
+   "title": "Can a Grant Cover a Safe House&#39;s Rent? Funding Options for Women&#39;s Rights ... - fundsforNGOs",
+   "link": "https://www2.fundsforngos.org/articles-searching-grants-and-donors/can-a-grant-cover-a-safe-houses-rent-funding-options-for-womens-rights-organisations-in-kenya/",
+   "source": "Google Alert 2",
+   "score": 5,
+   "deadline": "",
+   "contacts": [],
+   "kind": "Grant",
+   "lanes": [],
+   "funders": [
+    "USAID"
+   ]
+  },
+  {
+   "id": "627858656d72",
+   "v": 2,
+   "first_seen": "2026-11-26",
+   "title": "CFPs: NEF Commemorative Grant Fund for Capacity Building of Young Scientists",
+   "link": "https://www2.fundsforngos.org/fellowships/cfps-nef-commemorative-grant-fund-for-capacity-building-of-young-scientists/",
+   "source": "Google Alert 2",
+   "score": 5,
+   "deadline": "",
+   "contacts": [],
+   "kind": "Grant",
+   "lanes": [
+    "Workforce & HR capacity"
+   ],
+   "funders": []
+  },
+  {
    "id": "517045686a4c",
    "v": 2,
    "first_seen": "2026-10-26",
@@ -1207,6 +1422,39 @@
   }
  ],
  "signals": [
+  {
+   "id": "e7e36378850e",
+   "date": "2026-11-26",
+   "title": "Public TVET enrolment jumps from 345,000 to over 800,000 as Ogamba pushes industry ...",
+   "link": "https://educationnews.co.ke/news/public-tvet-enrolment-jumps-from-345-000-to-over-800-000-as-ogamba-pushes-industry-driven-training",
+   "source": "Google Alert 1",
+   "lanes": [
+    "Blue-collar & vocational"
+   ],
+   "funders": []
+  },
+  {
+   "id": "808f2ccaae05",
+   "date": "2026-11-26",
+   "title": "What Kenya can learn from Rwanda&#39;s technical education reforms in implementing CBE",
+   "link": "https://educationnews.co.ke/news/what-kenya-can-learn-from-rwandas-technical-education-reforms-in-implementing-cbe",
+   "source": "Google Alert 1",
+   "lanes": [
+    "Blue-collar & vocational"
+   ],
+   "funders": []
+  },
+  {
+   "id": "3781b339404b",
+   "date": "2026-11-26",
+   "title": "6 Donors for South African NPOs Providing Legal and Counselling Support to Survivors of ...",
+   "link": "https://www2.fundsforngos.org/articles-searching-grants-and-donors/6-donors-for-south-african-npos-providing-legal-and-counselling-support-to-survivors-of-gender-based-violence/",
+   "source": "Google Alert 6",
+   "lanes": [
+    "AI & digital skills"
+   ],
+   "funders": []
+  },
   {
    "id": "3a7f30558724",
    "date": "2026-11-24",
@@ -1479,9 +1727,9 @@
  "trends": [
   {
    "lane": "AI & digital skills",
-   "signals_30d": 2,
+   "signals_30d": 3,
    "signals_prev30d": 1,
-   "open_calls": 23,
+   "open_calls": 25,
    "top_funders": [
     "UNDP"
    ],
@@ -1499,18 +1747,18 @@
   },
   {
    "lane": "Blue-collar & vocational",
-   "signals_30d": 2,
+   "signals_30d": 4,
    "signals_prev30d": 0,
-   "open_calls": 8,
+   "open_calls": 11,
    "top_funders": [],
    "pitch": false,
    "asset": "bulk recruitment and employee outsourcing across manufacturing, construction and agriculture"
   },
   {
    "lane": "Agri-food jobs",
-   "signals_30d": 6,
-   "signals_prev30d": 6,
-   "open_calls": 28,
+   "signals_30d": 5,
+   "signals_prev30d": 7,
+   "open_calls": 31,
    "top_funders": [
     "IFC",
     "African Development Bank"
@@ -1522,7 +1770,7 @@
    "lane": "Graduate & youth employability",
    "signals_30d": 3,
    "signals_prev30d": 1,
-   "open_calls": 15,
+   "open_calls": 19,
    "top_funders": [
     "ILO",
     "African Development Bank"
@@ -1546,7 +1794,7 @@
    "lane": "Workforce & HR capacity",
    "signals_30d": 0,
    "signals_prev30d": 0,
-   "open_calls": 2,
+   "open_calls": 4,
    "top_funders": [],
    "pitch": false,
    "asset": "HR consulting, payroll and training for NGOs and SMEs"

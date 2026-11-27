@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-26T14:37Z",
+ "updated": "2026-11-27T14:31Z",
  "log": [
-  "Google Alert 1: 2 read, 0 new active",
-  "Google Alert 2: 20 read, 10 new active",
-  "Google Alert 3: 1 read, 0 new active",
-  "Google Alert 4: 11 read, 0 new active",
+  "Google Alert 1: 1 read, 0 new active",
+  "Google Alert 2: 12 read, 6 new active",
+  "Google Alert 3: 1 read, 1 new active",
+  "Google Alert 4: 6 read, 0 new active",
   "Google Alert 5: 0 read, 0 new active",
-  "Google Alert 6: 3 read, 1 new active",
+  "Google Alert 6: 2 read, 0 new active",
   "fundsforNGOs: 64 read, 0 new active",
   "Mastercard Foundation: 38 read, 0 new active",
-  "World Bank procurement (Kenya): 100 read, 3 new active",
-  "Sheet: {\"added\":8}"
+  "World Bank procurement (Kenya): 100 read, 2 new active",
+  "Sheet: {\"added\":1}"
  ],
  "items": [
   {
@@ -441,6 +441,22 @@
    "funders": []
   },
   {
+   "id": "ede335c926e9",
+   "v": 2,
+   "first_seen": "2026-11-27",
+   "title": "Which Donors Renew Grants to Kenyan NGOs, and What Can Their Award Histories Tell You?",
+   "link": "https://www2.fundsforngos.org/articles-searching-grants-and-donors/which-donors-renew-grants-to-kenyan-ngos-and-what-can-their-award-histories-tell-you/",
+   "source": "Google Alert 2",
+   "score": 10,
+   "deadline": "",
+   "contacts": [],
+   "kind": "Grant",
+   "lanes": [
+    "Graduate & youth employability"
+   ],
+   "funders": []
+  },
+  {
    "id": "c2e9e3c7d9f7",
    "v": 2,
    "first_seen": "2026-11-03",
@@ -816,6 +832,20 @@
    "funders": []
   },
   {
+   "id": "d24d55dcdbcd",
+   "v": 2,
+   "first_seen": "2026-11-27",
+   "title": "How to Build a 2027 Grant Calendar Using Donors&#39; Past Awards in Your Kenyan County",
+   "link": "https://www2.fundsforngos.org/articles-searching-grants-and-donors/how-to-build-a-2027-grant-calendar-using-donors-past-awards-in-your-kenyan-county/",
+   "source": "Google Alert 2",
+   "score": 7,
+   "deadline": "",
+   "contacts": [],
+   "kind": "Grant",
+   "lanes": [],
+   "funders": []
+  },
+  {
    "id": "a4deb3b16243",
    "v": 2,
    "first_seen": "2026-10-22",
@@ -1040,6 +1070,54 @@
    "funders": []
   },
   {
+   "id": "ca5cd2f4fd25",
+   "v": 2,
+   "first_seen": "2026-11-27",
+   "title": "Kenya Power announces new electricity token credit plan for prepaid customers",
+   "link": "https://peopledaily.digital/news/kenya-power-announces-new-electricity-token-credit-plan-for-prepaid-customers",
+   "source": "Google Alert 3",
+   "score": 6,
+   "deadline": "",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [],
+   "funders": [
+    "Safaricom"
+   ]
+  },
+  {
+   "id": "2df25bccafc2",
+   "v": 2,
+   "first_seen": "2026-11-27",
+   "title": "Equipping of Veterinary Clinic at College of Agriculture Bauchi/Ningi and Laboratory for Disease Surveillance",
+   "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00483938",
+   "source": "World Bank procurement (Kenya)",
+   "score": 6,
+   "deadline": "",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [
+    "Agri-food jobs"
+   ],
+   "funders": []
+  },
+  {
+   "id": "3188b5b19d78",
+   "v": 2,
+   "first_seen": "2026-11-27",
+   "title": "Procurement of Post Disaster Animal Shelter Tents (1000 pieces) for Provincial Directorate of Agriculture and Forestry",
+   "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00483962",
+   "source": "World Bank procurement (Kenya)",
+   "score": 6,
+   "deadline": "",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [
+    "Agri-food jobs"
+   ],
+   "funders": []
+  },
+  {
    "id": "53395a58c795",
    "v": 2,
    "first_seen": "2026-10-29",
@@ -1167,6 +1245,37 @@
    "kind": "Grant",
    "lanes": [
     "Workforce & HR capacity"
+   ],
+   "funders": []
+  },
+  {
+   "id": "32b685f80974",
+   "v": 2,
+   "first_seen": "2026-11-27",
+   "title": "Nominations Open for Civic Initiatives Competition in Ukraine - fundsforNGOs",
+   "link": "https://www2.fundsforngos.org/fellowships/nominations-open-for-civic-initiatives-competition-in-ukraine/",
+   "source": "Google Alert 2",
+   "score": 5,
+   "deadline": "",
+   "contacts": [],
+   "kind": "Grant",
+   "lanes": [],
+   "funders": []
+  },
+  {
+   "id": "29bd6966f709",
+   "v": 2,
+   "first_seen": "2026-11-27",
+   "title": "Who Pays the Stipend? Funding Apprenticeships for Young People in India&#39;s Small Towns",
+   "link": "https://www2.fundsforngos.org/articles-searching-grants-and-donors/who-pays-the-stipend-funding-apprenticeships-for-young-people-in-indias-small-towns/",
+   "source": "Google Alert 2",
+   "score": 5,
+   "deadline": "",
+   "contacts": [],
+   "kind": "Grant",
+   "lanes": [
+    "Blue-collar & vocational",
+    "Graduate & youth employability"
    ],
    "funders": []
   },
@@ -1419,9 +1528,61 @@
     "AI & digital skills"
    ],
    "funders": []
+  },
+  {
+   "id": "6d7a990a46f9",
+   "v": 2,
+   "first_seen": "2026-11-27",
+   "title": "5 Grant Sources for African NGOs Supporting Adolescents Living With HIV - fundsforNGOs",
+   "link": "https://www2.fundsforngos.org/articles-searching-grants-and-donors/5-grant-sources-for-african-ngos-supporting-adolescents-living-with-hiv/",
+   "source": "Google Alert 2",
+   "score": 4,
+   "deadline": "",
+   "contacts": [],
+   "kind": "Grant",
+   "lanes": [],
+   "funders": []
+  },
+  {
+   "id": "2534f246760b",
+   "v": 2,
+   "first_seen": "2026-11-27",
+   "title": "Breaking Barriers, Building Futures: Funding for Women&#39;s Empowerment - fundsforNGOs",
+   "link": "https://www2.fundsforngos.org/listing/breaking-barriers-building-futures-funding-for-womens-empowerment/",
+   "source": "Google Alert 2",
+   "score": 4,
+   "deadline": "",
+   "contacts": [],
+   "kind": "Grant",
+   "lanes": [],
+   "funders": []
   }
  ],
  "signals": [
+  {
+   "id": "5af8c02fff8f",
+   "date": "2026-11-27",
+   "title": "African ministers call for strategic financing to support youth development - ZBC NEWS",
+   "link": "https://www.zbcnews.co.zw/african-ministers-call-for-strategic-financing-to-support-youth-development/",
+   "source": "Google Alert 1",
+   "lanes": [
+    "Blue-collar & vocational"
+   ],
+   "funders": []
+  },
+  {
+   "id": "ae5a621980a0",
+   "date": "2026-11-27",
+   "title": "Can Another NGO Run Your Pilot? A Case Study in Funding Replication - fundsforNGOs",
+   "link": "https://www2.fundsforngos.org/articles-searching-grants-and-donors/can-another-ngo-run-your-pilot-a-case-study-in-funding-replication/",
+   "source": "Google Alert 2",
+   "lanes": [
+    "Graduate & youth employability"
+   ],
+   "funders": [
+    "ILO"
+   ]
+  },
   {
    "id": "e7e36378850e",
    "date": "2026-11-26",
@@ -1747,9 +1908,9 @@
   },
   {
    "lane": "Blue-collar & vocational",
-   "signals_30d": 4,
+   "signals_30d": 5,
    "signals_prev30d": 0,
-   "open_calls": 11,
+   "open_calls": 12,
    "top_funders": [],
    "pitch": false,
    "asset": "bulk recruitment and employee outsourcing across manufacturing, construction and agriculture"
@@ -1758,7 +1919,7 @@
    "lane": "Agri-food jobs",
    "signals_30d": 5,
    "signals_prev30d": 7,
-   "open_calls": 31,
+   "open_calls": 33,
    "top_funders": [
     "IFC",
     "African Development Bank"
@@ -1768,9 +1929,9 @@
   },
   {
    "lane": "Graduate & youth employability",
-   "signals_30d": 3,
+   "signals_30d": 4,
    "signals_prev30d": 1,
-   "open_calls": 19,
+   "open_calls": 21,
    "top_funders": [
     "ILO",
     "African Development Bank"

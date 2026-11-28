@@ -1,38 +1,18 @@
 {
- "updated": "2026-11-27T14:31Z",
+ "updated": "2026-11-28T13:46Z",
  "log": [
-  "Google Alert 1: 1 read, 0 new active",
-  "Google Alert 2: 12 read, 6 new active",
-  "Google Alert 3: 1 read, 1 new active",
-  "Google Alert 4: 6 read, 0 new active",
+  "Google Alert 1: 0 read, 0 new active",
+  "Google Alert 2: 2 read, 2 new active",
+  "Google Alert 3: 2 read, 1 new active",
+  "Google Alert 4: 1 read, 0 new active",
   "Google Alert 5: 0 read, 0 new active",
-  "Google Alert 6: 2 read, 0 new active",
+  "Google Alert 6: 0 read, 0 new active",
   "fundsforNGOs: 64 read, 0 new active",
   "Mastercard Foundation: 38 read, 0 new active",
-  "World Bank procurement (Kenya): 100 read, 2 new active",
+  "World Bank procurement (Kenya): 100 read, 4 new active",
   "Sheet: {\"added\":1}"
  ],
  "items": [
-  {
-   "id": "0946c268fb50",
-   "v": 2,
-   "first_seen": "2026-11-20",
-   "title": "EEAS Call for Expression of Interest for the recruitment of one Temporary Agent under ...",
-   "link": "https://www.eeas.europa.eu/eeas/eeas-call-expression-interest-recruitment-one-temporary-agent-under-article-2b-conditions-employment-21_en",
-   "source": "Google Alert 3",
-   "score": 5,
-   "deadline": "2026-11-27",
-   "contacts": [
-    "cecilia.iavorschi@eeas.europa.eu",
-    "ast-staff@eeas.europa.eu",
-    "eeas-hq-applications-ast@eeas.europa.eu"
-   ],
-   "kind": "RFP",
-   "lanes": [],
-   "funders": [
-    "European Union"
-   ]
-  },
   {
    "id": "c59e118e7951",
    "v": 2,
@@ -559,6 +539,20 @@
    "funders": []
   },
   {
+   "id": "97ad56dbf224",
+   "v": 2,
+   "first_seen": "2026-11-28",
+   "title": "After the Mangroves Are Planted, Who Pays to Track Their Survival on the Kenyan Coast?",
+   "link": "https://www2.fundsforngos.org/articles-searching-grants-and-donors/after-the-mangroves-are-planted-who-pays-to-track-their-survival-on-the-kenyan-coast/",
+   "source": "Google Alert 2",
+   "score": 8,
+   "deadline": "",
+   "contacts": [],
+   "kind": "Grant",
+   "lanes": [],
+   "funders": []
+  },
+  {
    "id": "3f17b6f01225",
    "v": 2,
    "first_seen": "2026-10-23",
@@ -846,6 +840,42 @@
    "funders": []
   },
   {
+   "id": "a01f083ad304",
+   "v": 2,
+   "first_seen": "2026-11-28",
+   "title": "6 Donors to Research If Your African Youth Organisation Has Never Managed a Grant",
+   "link": "https://www2.fundsforngos.org/articles-searching-grants-and-donors/6-donors-to-research-if-your-african-youth-organisation-has-never-managed-a-grant/amp/",
+   "source": "Google Alert 2",
+   "score": 7,
+   "deadline": "",
+   "contacts": [],
+   "kind": "Grant",
+   "lanes": [
+    "Graduate & youth employability"
+   ],
+   "funders": []
+  },
+  {
+   "id": "11126e1498c9",
+   "v": 2,
+   "first_seen": "2026-11-28",
+   "title": "US Firms Detail Deal for Kenya in Ksh8 Trillion Mrima Hills Mining Project - Money254",
+   "link": "https://www.money254.co.ke/post/us-firms-detail-deal-for-kenya-in-ksh8-trillion-mrima-hills-mining-project",
+   "source": "Google Alert 3",
+   "score": 7,
+   "deadline": "",
+   "contacts": [
+    "info@money254.co.ke"
+   ],
+   "kind": "EOI",
+   "lanes": [
+    "Graduate & youth employability"
+   ],
+   "funders": [
+    "Safaricom"
+   ]
+  },
+  {
    "id": "a4deb3b16243",
    "v": 2,
    "first_seen": "2026-10-22",
@@ -1107,6 +1137,70 @@
    "first_seen": "2026-11-27",
    "title": "Procurement of Post Disaster Animal Shelter Tents (1000 pieces) for Provincial Directorate of Agriculture and Forestry",
    "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00483962",
+   "source": "World Bank procurement (Kenya)",
+   "score": 6,
+   "deadline": "",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [
+    "Agri-food jobs"
+   ],
+   "funders": []
+  },
+  {
+   "id": "f0a5c11c0ed2",
+   "v": 2,
+   "first_seen": "2026-11-28",
+   "title": "Recrutement d\u2019une entreprise par la gestion de l\u2019atelier de formation relatif \u00e0 la phase III de l\u2019enqu\u00eate nationale int\u00e9gr\u00e9e de l\u2019agriculture, de l\u2019\u00e9levage et de l\u2019environnement pour la campagne 2024/",
+   "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00484305",
+   "source": "World Bank procurement (Kenya)",
+   "score": 6,
+   "deadline": "",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [
+    "Agri-food jobs"
+   ],
+   "funders": []
+  },
+  {
+   "id": "a2f4feeaccb9",
+   "v": 2,
+   "first_seen": "2026-11-28",
+   "title": "Recrutement d\u2019une entreprise par la gestion de l\u2019atelier de formation relatif \u00e0 la phase III de l\u2019enqu\u00eate nationale int\u00e9gr\u00e9e de l\u2019agriculture, de l\u2019\u00e9levage et de l\u2019environnement pour la campagne 2024/",
+   "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00484302",
+   "source": "World Bank procurement (Kenya)",
+   "score": 6,
+   "deadline": "",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [
+    "Agri-food jobs"
+   ],
+   "funders": []
+  },
+  {
+   "id": "ce64c5b1295a",
+   "v": 2,
+   "first_seen": "2026-11-28",
+   "title": "Recrutement d\u2019une entreprise par la gestion de l\u2019atelier de formation relatif \u00e0 la phase III de l\u2019enqu\u00eate nationale int\u00e9gr\u00e9e de l\u2019agriculture, de l\u2019\u00e9levage et de l\u2019environnement pour la campagne 2024/",
+   "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00484313",
+   "source": "World Bank procurement (Kenya)",
+   "score": 6,
+   "deadline": "",
+   "contacts": [],
+   "kind": "RFP",
+   "lanes": [
+    "Agri-food jobs"
+   ],
+   "funders": []
+  },
+  {
+   "id": "33d8980d221a",
+   "v": 2,
+   "first_seen": "2026-11-28",
+   "title": "Recrutement d\u2019une entreprise par la gestion de l\u2019atelier de formation relatif \u00e0 la phase III de l\u2019enqu\u00eate nationale int\u00e9gr\u00e9e de l\u2019agriculture, de l\u2019\u00e9levage et de l\u2019environnement pour la campagne 2024/",
+   "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00484314",
    "source": "World Bank procurement (Kenya)",
    "score": 6,
    "deadline": "",
@@ -1917,9 +2011,9 @@
   },
   {
    "lane": "Agri-food jobs",
-   "signals_30d": 5,
-   "signals_prev30d": 7,
-   "open_calls": 33,
+   "signals_30d": 4,
+   "signals_prev30d": 8,
+   "open_calls": 37,
    "top_funders": [
     "IFC",
     "African Development Bank"
@@ -1931,7 +2025,7 @@
    "lane": "Graduate & youth employability",
    "signals_30d": 4,
    "signals_prev30d": 1,
-   "open_calls": 21,
+   "open_calls": 23,
    "top_funders": [
     "ILO",
     "African Development Bank"
